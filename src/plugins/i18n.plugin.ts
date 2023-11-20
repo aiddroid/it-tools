@@ -18,9 +18,13 @@ const messages = _.merge(
   _.merge({}, ...messagesByTools),
 );
 
+// 获取浏览器语言
+const userLanguage = navigator.language.split('-')[0];
+
 const i18n = createI18n({
   legacy: false,
-  locale: 'en',
+  locale: userLanguage,
+  fallbackLocale: 'en', // 回退语言
   messages,
 });
 
