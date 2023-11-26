@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: Últimas herramientas
+    favoriteTools: 'Tus herramientas favoritas'
+    allTools: 'Todas las herramientas'
+  subtitle: 'Herramientas útiles para desarrolladores'
+  toggleMenu: 'Alternar menú'
+  home: Inicio
+  uiLib: 'Biblioteca de UI'
+  support: 'Apoya el desarrollo de IT Tools'
+  buyMeACoffee: 'Cómprame un café'
+  follow:
+    title: '¿Te gusta IT Tools?'
+    p1: 'Danos una estrella en'
+    githubRepository: 'repositorio de IT Tools en GitHub'
+    p2: 'o síguenos en'
+    twitterAccount: 'cuenta de Twitter de IT Tools'
+    thankYou: '¡Gracias!'
+  nav:
+    github: 'Repositorio en GitHub'
+    githubRepository: 'repositorio de IT Tools en GitHub'
+    twitter: 'Cuenta de Twitter'
+    twitterAccount: 'cuenta de Twitter de IT Tools'
+    about: 'Acerca de IT Tools'
+    aboutLabel: 'Acerca de'
+    darkMode: 'Modo oscuro'
+    lightMode: 'Modo claro'
+    mode: 'Alternar modo oscuro/claro'
+about:
+  content: >
+    # Acerca de IT Tools
+
+    Esta maravillosa herramienta agrupa herramientas útiles para desarrolladores y personas que trabajan en IT. Si la encuentras útil, ¡siéntete libre de compartirla con personas a las que creas que también les resultará útil!
+
+    ## ¿Encontraste un error?
+
+    Si necesitas una herramienta que actualmente no está presente aquí y crees que puede ser útil, puedes enviar una solicitud de función en la [sección de reseñas](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) en la Chrome Web Store.
+
+    ## ¿Falta alguna herramienta?
+    
+    Y si encuentras un error o algo no funciona como se esperaba, por favor, presenta un informe de error en la [sección de soporte](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) en la Chrome Web Store.
+
+404:
+  notFound: '404 No encontrado'
+  sorry: 'Lo siento, esta página parece no existir'
+  maybe: 'Quizás la caché esté haciendo cosas complicadas, ¿intentaste actualizar forzadamente?'
+  backHome: 'Volver a inicio'
+favoriteButton:
+  remove: 'Eliminar de favoritos'
+  add: 'Agregar a favoritos'
+toolCard:
+  new: Nuevo
+search:
+  label: Buscar
+tools:
+  categories:
+    favorite-tools: 'Tus herramientas favoritas'
+    crypto: Cripto
+    converter: Convertidor
+    web: Web
+    images and videos: 'Imágenes y Videos'
+    development: Desarrollo
+    network: Red
+    math: Matemáticas
+    measurement: Medición
+    text: Texto
+    data: Datos

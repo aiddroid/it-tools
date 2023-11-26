@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: Najnowsze narzędzia
+    favoriteTools: 'Ulubione narzędzia'
+    allTools: 'Wszystkie narzędzia'
+  subtitle: 'Przydatne narzędzia dla programistów'
+  toggleMenu: 'Przełącz menu'
+  home: Strona główna
+  uiLib: 'Biblioteka UI'
+  support: 'Wesprzyj rozwój IT Tools'
+  buyMeACoffee: 'Kup mi kawę'
+  follow:
+    title: 'Podoba Ci się IT Tools?'
+    p1: 'Daj nam gwiazdkę na '
+    githubRepository: 'Repozytorium GitHub IT Tools'
+    p2: 'lub śledź nas na '
+    twitterAccount: 'Koncie Twitter IT Tools'
+    thankYou: 'Dziękujemy!'
+  nav:
+    github: 'Repozytorium GitHub'
+    githubRepository: 'Repozytorium GitHub IT Tools'
+    twitter: 'Konto Twitter'
+    twitterAccount: 'Konto Twitter IT Tools'
+    about: 'O IT Tools'
+    aboutLabel: 'O nas'
+    darkMode: 'Tryb ciemny'
+    lightMode: 'Tryb jasny'
+    mode: 'Przełącz tryb ciemny/jasny'
+about:
+  content: >
+    # O IT Tools
+
+    To wspaniałe narzędzie zbiera przydatne narzędzia dla programistów i osób pracujących w dziedzinie IT. Jeśli uważasz, że jest to przydatne, śmiało podziel się tym z innymi, którzy mogą także uznać to za pomocne!
+
+    ## Znalazłeś błąd?
+
+    Jeśli potrzebujesz narzędzia, którego obecnie tutaj nie ma, a myślisz, że może być pomocne, zapraszamy do zgłaszania prośby o nową funkcję w [sekcji recenzji](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) na Chrome Web Store.
+
+    ## Brakuje jakiegoś narzędzia?
+
+    Jeśli natomiast znalazłeś błąd lub coś nie działa zgodnie z oczekiwaniami, prosimy zgłosić problem w [sekcji pomocy](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) na Chrome Web Store.
+    
+404:
+  notFound: '404 Nie znaleziono'
+  sorry: 'Przepraszamy, ta strona nie istnieje'
+  maybe: 'Być może pamięć podręczna robi figle, spróbuj wymusić odświeżenie?'
+  backHome: 'Powrót do strony głównej'
+favoriteButton:
+  remove: 'Usuń z ulubionych'
+  add: 'Dodaj do ulubionych'
+toolCard:
+  new: Nowe
+search:
+  label: Szukaj
+tools:
+  categories:
+    favorite-tools: 'Ulubione narzędzia'
+    crypto: Kryptografia
+    converter: Konwerter
+    web: Web
+    images and videos: 'Obrazy i filmy'
+    development: Rozwój
+    network: Sieć
+    math: Matematyka
+    measurement: Pomiar
+    text: Tekst
+    data: Dane

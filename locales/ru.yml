@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: Новые инструменты
+    favoriteTools: 'Ваши любимые инструменты'
+    allTools: 'Все инструменты'
+  subtitle: 'Удобные инструменты для разработчиков'
+  toggleMenu: 'Переключить меню'
+  home: Главная
+  uiLib: 'Библиотека пользовательского интерфейса'
+  support: 'Поддержите разработку IT Tools'
+  buyMeACoffee: 'Купите мне кофе'
+  follow:
+    title: 'Вам нравятся IT Tools?'
+    p1: 'Поставьте нам звезду на'
+    githubRepository: 'репозитории IT Tools на GitHub'
+    p2: 'или следите за нами на'
+    twitterAccount: 'аккаунте Twitter IT Tools'
+    thankYou: 'Спасибо!'
+  nav:
+    github: 'Репозиторий на GitHub'
+    githubRepository: 'репозитории IT Tools на GitHub'
+    twitter: 'Twitter-аккаунт'
+    twitterAccount: 'аккаунт Twitter IT Tools'
+    about: 'О IT Tools'
+    aboutLabel: 'О нас'
+    darkMode: 'Темный режим'
+    lightMode: 'Светлый режим'
+    mode: 'Переключить темный/светлый режим'
+about:
+  content: >
+    # О IT Tools
+
+    Этот замечательный инструмент объединяет полезные инструменты для разработчиков и специалистов в области информационных технологий. Если вы считаете его полезным, не стесняйтесь делиться им с людьми, которые, по вашему мнению, также найдут его полезным!
+
+    ## Нашли баг?
+
+    Если вам нужен инструмент, которого в настоящее время нет здесь, и вы считаете, что он может быть полезен, добро пожаловать отправить запрос на добавление функции в [разделе отзывов](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) в Chrome Web Store.
+
+    ## Отсутствует инструмент?
+    
+    И если вы нашли баг или что-то не работает так, как ожидалось, пожалуйста, отправьте отчет об ошибке в [разделе поддержки](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) в Chrome Web Store.
+
+404:
+  notFound: '404 Не найдено'
+  sorry: 'Извините, кажется, этой страницы не существует'
+  maybe: 'Возможно, кэш что-то мудрит, попробуйте принудительное обновление?'
+  backHome: 'На главную'
+favoriteButton:
+  remove: 'Убрать из избранного'
+  add: 'Добавить в избранное'
+toolCard:
+  new: Новый
+search:
+  label: Поиск
+tools:
+  categories:
+    favorite-tools: 'Ваши любимые инструменты'
+    crypto: Крипто
+    converter: Конвертер
+    web: Веб
+    images and videos: 'Изображения и видео'
+    development: Разработка
+    network: Сеть
+    math: Математика
+    measurement: Измерение
+    text: Текст
+    data: Данные

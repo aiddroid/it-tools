@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: Alat Terbaru
+    favoriteTools: 'Alat Favorit Anda'
+    allTools: 'Semua Alat'
+  subtitle: 'Alat Berguna untuk Pengembang'
+  toggleMenu: 'Alihkan menu'
+  home: Beranda
+  uiLib: 'Perpustakaan UI'
+  support: 'Dukung pengembangan IT Tools'
+  buyMeACoffee: 'Beli saya secangkir kopi'
+  follow:
+    title: 'Anda suka IT Tools?'
+    p1: 'Beri kami bintang di '
+    githubRepository: 'Repositori GitHub IT Tools'
+    p2: 'atau ikuti kami di '
+    twitterAccount: 'Akun Twitter IT Tools'
+    thankYou: 'Terima kasih!'
+  nav:
+    github: 'Repositori GitHub'
+    githubRepository: 'Repositori GitHub IT Tools'
+    twitter: 'Akun Twitter'
+    twitterAccount: 'Akun Twitter IT Tools'
+    about: 'Tentang IT Tools'
+    aboutLabel: 'Tentang'
+    darkMode: 'Mode Gelap'
+    lightMode: 'Mode Terang'
+    mode: 'Alihkan mode gelap/terang'
+about:
+  content: >
+    # Tentang IT Tools
+
+    Alat menakjubkan ini mengumpulkan alat berguna untuk pengembang dan orang-orang yang bekerja di bidang IT. Jika Anda menemukannya berguna, silakan bagikan kepada orang lain yang mungkin juga menemukannya berguna!
+
+    ## Menemukan bug?
+
+    Jika Anda membutuhkan alat yang saat ini tidak ada di sini dan Anda pikir bisa bermanfaat, silakan kirimkan permintaan fitur di [bagian ulasan](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) di Chrome Web Store.
+
+    ## Alat yang hilang?
+
+    Dan jika Anda menemukan bug, atau ada yang tidak berfungsi seperti yang diharapkan, silakan laporkan bug di [bagian dukungan](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) di Chrome Web Store.
+    
+404:
+  notFound: '404 Tidak Ditemukan'
+  sorry: 'Maaf, halaman ini sepertinya tidak ada'
+  maybe: 'Mungkin cache sedang bermain, coba perbarui paksa?'
+  backHome: 'Kembali ke Beranda'
+favoriteButton:
+  remove: 'Hapus dari favorit'
+  add: 'Tambahkan ke favorit'
+toolCard:
+  new: Baru
+search:
+  label: Cari
+tools:
+  categories:
+    favorite-tools: 'Alat Favorit Anda'
+    crypto: Kripto
+    converter: Konverter
+    web: Web
+    images and videos: 'Gambar & Video'
+    development: Pengembangan
+    network: Jaringan
+    math: Matematika
+    measurement: Pengukuran
+    text: Teks
+    data: Data

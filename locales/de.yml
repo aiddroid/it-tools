@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: 'Neueste Tools'
+    favoriteTools: 'Ihre Lieblingswerkzeuge'
+    allTools: 'Alle Werkzeuge'
+  subtitle: 'Praktische Werkzeuge für Entwickler'
+  toggleMenu: 'Menü umschalten'
+  home: 'Startseite'
+  uiLib: 'UI-Bibliothek'
+  support: 'Unterstützen Sie die Entwicklung von IT-Werkzeugen'
+  buyMeACoffee: 'Kaufen Sie mir einen Kaffee'
+  follow:
+    title: 'Mögen Sie it-tools?'
+    p1: 'Geben Sie uns einen Stern auf'
+    githubRepository: 'IT-Tools GitHub-Repository'
+    p2: 'oder folgen Sie uns auf'
+    twitterAccount: 'IT-Tools Twitter-Konto'
+    thankYou: 'Vielen Dank!'
+  nav:
+    github: 'GitHub-Repository'
+    githubRepository: 'IT-Tools GitHub-Repository'
+    twitter: 'Twitter-Konto'
+    twitterAccount: 'IT Tools Twitter-Konto'
+    about: 'Über IT-Tools'
+    aboutLabel: 'Über'
+    darkMode: 'Dunkelmodus'
+    lightMode: 'Hellmodus'
+    mode: 'Dunkel-/Hellmodus umschalten'
+about:
+  content: >
+    # Über IT-Tools
+
+    Dieses wunderbare Werkzeug fasst nützliche Werkzeuge für Entwickler und Menschen, die in der IT arbeiten, zusammen. Wenn Sie es nützlich finden, teilen Sie es bitte mit Menschen, von denen Sie denken, dass es ihnen auch nützlich sein könnte!
+
+    ## Einen Fehler gefunden?
+
+    Wenn Sie ein Werkzeug benötigen, das derzeit nicht hier ist, und Sie denken, es könnte nützlich sein, können Sie gerne einen Feature-Request im [Bewertungsbereich](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) im Chrome Web Store einreichen.
+
+    ## Ein Werkzeug fehlt?
+
+    Und wenn Sie einen Fehler gefunden haben oder etwas nicht wie erwartet funktioniert, geben Sie bitte einen Fehlerbericht im [Supportbereich](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) im Chrome Web Store ab.
+
+404:
+  notFound: '404 Nicht gefunden'
+  sorry: 'Entschuldigung, diese Seite scheint nicht zu existieren'
+  maybe: 'Vielleicht macht der Cache etwas Kniffliges. Versuchen Sie es mit einem erzwungenen Neuladen?'
+  backHome: 'Zurück zur Startseite'
+favoriteButton:
+  remove: 'Aus Favoriten entfernen'
+  add: 'Zu Favoriten hinzufügen'
+toolCard:
+  new: 'Neu'
+search:
+  label: 'Suche'
+tools:
+  categories:
+    favorite-tools: 'Ihre Lieblingswerkzeuge'
+    crypto: 'Krypto'
+    converter: 'Konverter'
+    web: 'Web'
+    images and videos: 'Bilder & Videos'
+    development: 'Entwicklung'
+    network: 'Netzwerk'
+    math: 'Mathematik'
+    measurement: 'Messung'
+    text: 'Text'
+    data: 'Daten'

@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: Nieuwste tools
+    favoriteTools: 'Uw favoriete tools'
+    allTools: 'Alle tools'
+  subtitle: 'Handige tools voor ontwikkelaars'
+  toggleMenu: 'Schakel menu'
+  home: Startpagina
+  uiLib: 'UI-bibliotheek'
+  support: 'Ondersteun IT Tools-ontwikkeling'
+  buyMeACoffee: 'Koop me een koffie'
+  follow:
+    title: 'Vind je IT Tools leuk?'
+    p1: 'Geef ons een ster op '
+    githubRepository: 'IT Tools GitHub-repository'
+    p2: 'of volg ons op '
+    twitterAccount: 'IT Tools Twitter-account'
+    thankYou: 'Dank je wel!'
+  nav:
+    github: 'GitHub-repository'
+    githubRepository: 'IT Tools GitHub-repository'
+    twitter: 'Twitter-account'
+    twitterAccount: 'IT Tools Twitter-account'
+    about: 'Over IT Tools'
+    aboutLabel: 'Over ons'
+    darkMode: 'Donkere modus'
+    lightMode: 'Lichte modus'
+    mode: 'Schakel donkere/lichte modus'
+about:
+  content: >
+    # Over IT Tools
+
+    Deze geweldige tool bundelt handige tools voor ontwikkelaars en mensen die werkzaam zijn in IT. Als je het handig vindt, deel het dan gerust met anderen die het ook handig kunnen vinden!
+
+    ## Heb je een bug gevonden?
+
+    Als je een tool nodig hebt die momenteel niet aanwezig is en je denkt dat deze nuttig kan zijn, ben je welkom om een functieverzoek in te dienen in het [recensiegedeelte](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) van de Chrome Web Store.
+
+    ## Ontbreekt er een tool?
+
+    En als je een bug hebt gevonden of iets werkt niet zoals verwacht, dien dan een bugrapport in het [ondersteuningsgedeelte](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) van de Chrome Web Store.
+    
+404:
+  notFound: '404 Niet gevonden'
+  sorry: 'Sorry, deze pagina lijkt niet te bestaan'
+  maybe: 'Misschien doet de cache lastig, probeer te forceren verversen?'
+  backHome: 'Terug naar startpagina'
+favoriteButton:
+  remove: 'Verwijderen uit favorieten'
+  add: 'Toevoegen aan favorieten'
+toolCard:
+  new: Nieuw
+search:
+  label: Zoeken
+tools:
+  categories:
+    favorite-tools: 'Uw favoriete tools'
+    crypto: Crypto
+    converter: Converter
+    web: Web
+    images and videos: 'Afbeeldingen & Videos'
+    development: Ontwikkeling
+    network: Netwerk
+    math: Wiskunde
+    measurement: Meting
+    text: Tekst
+    data: Data

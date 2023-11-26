@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: Alat terkini
+    favoriteTools: 'Alat kegemaran anda'
+    allTools: 'Semua alat'
+  subtitle: 'Alat berguna untuk pembangun'
+  toggleMenu: 'Togol menu'
+  home: Laman utama
+  uiLib: 'Pustaka UI'
+  support: 'Sokong pembangunan IT Tools'
+  buyMeACoffee: 'Beli saya kopi'
+  follow:
+    title: 'Suka IT Tools?'
+    p1: 'Beri kami bintang di '
+    githubRepository: 'Repositori GitHub IT Tools'
+    p2: 'atau ikuti kami di '
+    twitterAccount: 'Akaun Twitter IT Tools'
+    thankYou: 'Terima kasih!'
+  nav:
+    github: 'Repositori GitHub'
+    githubRepository: 'Repositori GitHub IT Tools'
+    twitter: 'Akaun Twitter'
+    twitterAccount: 'Akaun Twitter IT Tools'
+    about: 'Tentang IT Tools'
+    aboutLabel: 'Tentang kami'
+    darkMode: 'Mod gelap'
+    lightMode: 'Mod terang'
+    mode: 'Togol mod gelap/terang'
+about:
+  content: >
+    # Mengenai IT Tools
+
+    Alat yang hebat ini mengumpulkan alat berguna untuk pembangun dan individu yang bekerja dalam bidang IT. Jika anda dapati ia berguna, sila kongsi kepada individu lain yang mungkin juga akan mendapat faedah daripadanya!
+
+    ## Jumpa bug?
+
+    Jika anda memerlukan alat yang pada masa kini tidak ada di sini, dan anda fikir ia boleh berguna, anda dialu-alukan untuk mengemukakan permintaan ciri dalam [bahagian ulasan](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) di Chrome Web Store.
+
+    ## Alat hilang?
+
+    Dan jika anda jumpa bug, atau sesuatu tidak berfungsi seperti yang dijangkakan, sila laporkan ralat dalam [bahagian sokongan](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) di Chrome Web Store.
+
+404:
+  notFound: '404 Tidak Ditemui'
+  sorry: 'Maaf, laman ini kelihatan tidak wujud'
+  maybe: 'Mungkin cache sedang bermain, cuba paksa-refresh?'
+  backHome: 'Kembali ke laman utama'
+favoriteButton:
+  remove: 'Buang dari kegemaran'
+  add: 'Tambah ke kegemaran'
+toolCard:
+  new: Baru
+search:
+  label: Cari
+tools:
+  categories:
+    favorite-tools: 'Alat kegemaran anda'
+    crypto: Kripto
+    converter: Penukar
+    web: Web
+    images and videos: 'Gambar & Video'
+    development: Pembangunan
+    network: Rangkaian
+    math: Matematik
+    measurement: Pengukuran
+    text: Teks
+    data: Data

@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: Senaste verktygen
+    favoriteTools: 'Dina favoritverktyg'
+    allTools: 'Alla verktyg'
+  subtitle: 'Praktiska verktyg för utvecklare'
+  toggleMenu: 'Växla meny'
+  home: Hem
+  uiLib: 'UI-bibliotek'
+  support: 'Stöd utvecklingen av IT Tools'
+  buyMeACoffee: 'Köp mig en kaffe'
+  follow:
+    title: 'Gillar du IT Tools?'
+    p1: 'Ge oss en stjärna på '
+    githubRepository: 'IT Tools GitHub-repository'
+    p2: 'eller följ oss på '
+    twitterAccount: 'IT Tools Twitter-konto'
+    thankYou: 'Tack!'
+  nav:
+    github: 'GitHub-repository'
+    githubRepository: 'IT Tools GitHub-repository'
+    twitter: 'Twitter-konto'
+    twitterAccount: 'IT Tools Twitter-konto'
+    about: 'Om IT Tools'
+    aboutLabel: 'Om oss'
+    darkMode: 'Mörkt läge'
+    lightMode: 'Ljust läge'
+    mode: 'Växla mellan mörkt/ljust läge'
+about:
+  content: >
+    # Om IT Tools
+
+    Detta underbara verktyg samlar användbara verktyg för utvecklare och personer som arbetar inom IT. Om du tycker att det är användbart, är du välkommen att dela det med andra som också kan tycka att det är användbart!
+
+    ## Har du hittat en bugg?
+
+    Om du behöver ett verktyg som för närvarande inte finns här, och du tror att det kan vara användbart, är du välkommen att skicka in en funktionförfrågan i [recensionssektionen](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) i Chrome Web Store.
+
+    ## Saknas ett verktyg?
+
+    Och om du har hittat en bugg, eller om något inte fungerar som förväntat, var god skicka in en felrapport i [supportsektionen](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) i Chrome Web Store.
+    
+404:
+  notFound: '404 Hittades inte'
+  sorry: 'Tyvärr, den här sidan verkar inte finnas'
+  maybe: 'Kanske gör cacheminnet konstiga saker, försök tvinga en uppdatering?'
+  backHome: 'Tillbaka till startsidan'
+favoriteButton:
+  remove: 'Ta bort från favoriter'
+  add: 'Lägg till i favoriter'
+toolCard:
+  new: Nytt
+search:
+  label: Sök
+tools:
+  categories:
+    favorite-tools: 'Dina favoritverktyg'
+    crypto: Krypto
+    converter: Omvandlare
+    web: Web
+    images and videos: 'Bilder & Videor'
+    development: Utveckling
+    network: Nätverk
+    math: Matematik
+    measurement: Mätning
+    text: Text
+    data: Data

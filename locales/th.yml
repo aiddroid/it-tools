@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: เครื่องมือล่าสุด
+    favoriteTools: 'เครื่องมือที่คุณชื่นชอบ'
+    allTools: 'เครื่องมือทั้งหมด'
+  subtitle: 'เครื่องมือที่มีประโยชน์สำหรับนักพัฒนา'
+  toggleMenu: 'สลับเมนู'
+  home: หน้าแรก
+  uiLib: 'ไลบรารี UI'
+  support: 'สนับสนุนการพัฒนา IT Tools'
+  buyMeACoffee: 'ซื้อกาแฟให้ฉัน'
+  follow:
+    title: 'คุณชอบ IT Tools หรือไม่?'
+    p1: 'ให้เราดาวบน '
+    githubRepository: 'IT Tools GitHub repository'
+    p2: 'หรือติดตามเราทาง '
+    twitterAccount: 'บัญชีทวิตเตอร์ IT Tools'
+    thankYou: 'ขอบคุณ!'
+  nav:
+    github: 'ที่เก็บ GitHub'
+    githubRepository: 'IT Tools GitHub repository'
+    twitter: 'บัญชีทวิตเตอร์'
+    twitterAccount: 'บัญชีทวิตเตอร์ IT Tools'
+    about: 'เกี่ยวกับ IT Tools'
+    aboutLabel: 'เกี่ยวกับ'
+    darkMode: 'โหมดมืด'
+    lightMode: 'โหมดสว่าง'
+    mode: 'สลับโหมดมืด/สว่าง'
+about:
+  content: >
+    # เกี่ยวกับ IT Tools
+
+    เครื่องมือที่น่าทึ่งนี้รวบรวมเครื่องมือที่มีประโยชน์สำหรับนักพัฒนาและบุคคลที่ทำงานในด้าน IT หากคุณพบว่ามีประโยชน์โปรดถ่ายทอดให้กับผู้อื่นที่คุณคิดว่าอาจจะเป็นประโยชน์ด้วย!
+
+    ## พบบั๊ก?
+
+    หากคุณต้องการเครื่องมือที่ยังไม่มีที่นี่และคุณคิดว่ามันสามารถมีประโยชน์ ยินดีต้อนรับที่จะส่งคำขอคุณสมบัติใน [ส่วนบทวิจารณ์](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) ใน Chrome Web Store.
+
+    ## ขาดเครื่องมือ?
+
+    และหากคุณพบบั๊กหรือบางอย่างไม่ทำงานตามที่คาดหวัง โปรดรายงานข้อผิดพลาดใน [ส่วนสนับสนุน](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) ใน Chrome Web Store.
+    
+404:
+  notFound: '404 ไม่พบ'
+  sorry: 'ขออภัย, หน้านี้ดูเหมือนจะไม่มี'
+  maybe: 'อาจเป็นเพราะแคชกำลังทำอะไรที่ตลก, ลองบังคับรีเฟรชบ้างไหม?'
+  backHome: 'กลับสู่หน้าแรก'
+favoriteButton:
+  remove: 'ลบออกจากรายการโปรด'
+  add: 'เพิ่มลงในรายการโปรด'
+toolCard:
+  new: ใหม่
+search:
+  label: ค้นหา
+tools:
+  categories:
+    favorite-tools: 'เครื่องมือที่คุณชื่นชอบ'
+    crypto: การเข้ารหัส
+    converter: ตัวแปลง
+    web: เว็บ
+    images and videos: 'รูปภาพและวิดีโอ'
+    development: การพัฒนา
+    network: เครือข่าย
+    math: คณิตศาสตร์
+    measurement: การวัด
+    text: ข้อความ
+    data: ข้อมูล

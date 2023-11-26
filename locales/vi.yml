@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: Công cụ mới nhất
+    favoriteTools: 'Công cụ ưa thích của bạn'
+    allTools: 'Tất cả công cụ'
+  subtitle: 'Công cụ hữu ích cho nhà phát triển'
+  toggleMenu: 'Chuyển đổi menu'
+  home: Trang chủ
+  uiLib: 'Thư viện UI'
+  support: 'Hỗ trợ phát triển IT Tools'
+  buyMeACoffee: 'Mua cho tôi một cốc cà phê'
+  follow:
+    title: 'Bạn thích IT Tools?'
+    p1: 'Đánh giá chúng tôi trên '
+    githubRepository: 'IT Tools GitHub repository'
+    p2: 'hoặc theo dõi chúng tôi trên '
+    twitterAccount: 'Tài khoản Twitter IT Tools'
+    thankYou: 'Cảm ơn bạn!'
+  nav:
+    github: 'Kho GitHub'
+    githubRepository: 'IT Tools GitHub repository'
+    twitter: 'Tài khoản Twitter'
+    twitterAccount: 'Tài khoản Twitter IT Tools'
+    about: 'Về IT Tools'
+    aboutLabel: 'Giới thiệu'
+    darkMode: 'Chế độ tối'
+    lightMode: 'Chế độ sáng'
+    mode: 'Chuyển đổi chế độ tối/sáng'
+about:
+  content: >
+    # Về IT Tools
+
+    Công cụ tuyệt vời này tổng hợp các công cụ hữu ích cho nhà phát triển và những người làm việc trong lĩnh vực Công nghệ thông tin. Nếu bạn thấy hữu ích, hãy thoải mái chia sẻ với những người khác mà bạn nghĩ có thể cũng sẽ thấy hữu ích!
+
+    ## Phát hiện lỗi?
+
+    Nếu bạn cần một công cụ mà hiện tại chưa có ở đây và bạn nghĩ rằng có thể hữu ích, hãy đưa ra yêu cầu tính năng trong [phần đánh giá](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) trên Chrome Web Store.
+
+    ## Thiếu một công cụ?
+
+    Nếu bạn phát hiện lỗi hoặc có điều gì đó không hoạt động như mong đợi, vui lòng báo cáo lỗi trong [phần hỗ trợ](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) trên Chrome Web Store.
+    
+404:
+  notFound: '404 Không tìm thấy'
+  sorry: 'Xin lỗi, trang này dường như không tồn tại'
+  maybe: 'Có lẽ bộ nhớ cache đang làm trò, thử làm mới buộc không?'
+  backHome: 'Quay lại trang chủ'
+favoriteButton:
+  remove: 'Xóa khỏi mục ưa thích'
+  add: 'Thêm vào mục ưa thích'
+toolCard:
+  new: Mới
+search:
+  label: Tìm kiếm
+tools:
+  categories:
+    favorite-tools: 'Công cụ ưa thích của bạn'
+    crypto: Mã hóa
+    converter: Bộ chuyển đổi
+    web: Web
+    images and videos: 'Hình ảnh & Video'
+    development: Phát triển
+    network: Mạng
+    math: Toán học
+    measurement: Đo lường
+    text: Văn bản
+    data: Dữ liệu

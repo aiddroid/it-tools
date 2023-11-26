@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: Nuovi strumenti
+    favoriteTools: 'I tuoi strumenti preferiti'
+    allTools: 'Tutti gli strumenti'
+  subtitle: 'Strumenti utili per sviluppatori'
+  toggleMenu: 'Attiva/Disattiva menu'
+  home: Home
+  uiLib: 'Libreria UI'
+  support: 'Supporta lo sviluppo di IT Tools'
+  buyMeACoffee: 'Offrimi un caffè'
+  follow:
+    title: 'Ti piace IT Tools?'
+    p1: 'Lasciaci una stella su '
+    githubRepository: 'IT Tools GitHub repository'
+    p2: 'oppure seguici su '
+    twitterAccount: 'account Twitter IT Tools'
+    thankYou: 'Grazie!'
+  nav:
+    github: 'Repository GitHub'
+    githubRepository: 'Repository GitHub di IT Tools'
+    twitter: 'Account Twitter'
+    twitterAccount: 'Account Twitter di IT Tools'
+    about: 'Su IT Tools'
+    aboutLabel: 'Su di noi'
+    darkMode: 'Modalità scura'
+    lightMode: 'Modalità chiara'
+    mode: 'Attiva/Disattiva modalità scura/chiara'
+about:
+  content: >
+    # Su IT Tools
+
+    Questo strumento meraviglioso raccoglie strumenti utili per sviluppatori e persone che lavorano nel campo dell'IT. Se lo trovi utile, sentiti libero di condividerlo con chi pensi possa trovarlo utile!
+
+    ## Hai trovato un bug?
+
+    Se hai bisogno di uno strumento che attualmente non è presente qui e pensi che potrebbe essere utile, sei invitato a inviare una richiesta di funzionalità nella [sezione delle recensioni](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) nel Chrome Web Store.
+
+    ## Manca uno strumento?
+
+    E se hai trovato un bug, o qualcosa non funziona come previsto, per favore segnala un problema nella [sezione di supporto](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) nel Chrome Web Store.
+
+404:
+  notFound: '404 Non trovato'
+  sorry: 'Spiacente, questa pagina non sembra esistere'
+  maybe: 'Forse la cache sta facendo qualche cosa strana, prova a forzare il ricaricamento'
+  backHome: 'Torna alla Home'
+favoriteButton:
+  remove: 'Rimuovi dai preferiti'
+  add: 'Aggiungi ai preferiti'
+toolCard:
+  new: Nuovo
+search:
+  label: Cerca
+tools:
+  categories:
+    favorite-tools: 'I tuoi strumenti preferiti'
+    crypto: Crittografia
+    converter: Convertitore
+    web: Web
+    images and videos: 'Immagini e Video'
+    development: Sviluppo
+    network: Rete
+    math: Matematica
+    measurement: Misurazione
+    text: Testo
+    data: Dati

@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: أحدث الأدوات
+    favoriteTools: 'الأدوات المفضلة لديك'
+    allTools: 'كل الأدوات'
+  subtitle: 'أدوات مفيدة للمطورين'
+  toggleMenu: 'تبديل القائمة'
+  home: الصفحة الرئيسية
+  uiLib: 'مكتبة واجهة المستخدم'
+  support: 'دعم تطوير أدوات IT'
+  buyMeACoffee: 'اشتر لي قهوة'
+  follow:
+    title: 'هل تحب أدوات IT؟'
+    p1: 'قدم لنا نجمة على'
+    githubRepository: 'مستودع IT Tools على GitHub'
+    p2: 'أو اتبعنا على'
+    twitterAccount: 'حساب Twitter لـ IT Tools'
+    thankYou: 'شكراً لك!'
+  nav:
+    github: 'مستودع GitHub'
+    githubRepository: 'مستودع IT Tools على GitHub'
+    twitter: 'حساب Twitter'
+    twitterAccount: 'حساب Twitter لـ IT Tools'
+    about: 'حول IT Tools'
+    aboutLabel: 'حول'
+    darkMode: 'الوضع الداكن'
+    lightMode: 'الوضع الفاتح'
+    mode: 'تبديل الوضع الداكن/الفاتح'
+about:
+  content: >
+    # حول IT Tools
+
+    هذه الأداة الرائعة، تجمع بين الأدوات المفيدة للمطورين والأشخاص العاملين في مجال تكنولوجيا المعلومات. إذا وجدتها مفيدة، فلا تتردد في مشاركتها مع الأشخاص الذين قد يجدونها مفيدة أيضاً!
+
+    ## هل وجدت خطأ؟
+
+    إذا كنت بحاجة إلى أداة غير متوفرة حالياً هنا، وتعتقد أنها يمكن أن تكون مفيدة، فأنت مدعو لتقديم طلب ميزة في [قسم المراجعات](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) في Chrome Web Store.
+
+    ## هل تفتقد أداة؟
+    
+    وإذا وجدت خطأ، أو شيء لا يعمل كما هو متوقع، يرجى تقديم تقرير عن الخطأ في [قسم الدعم](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) في Chrome Web Store.
+
+404:
+  notFound: '404 غير موجود'
+  sorry: 'عذرًا، يبدو أن هذه الصفحة غير موجودة'
+  maybe: 'ربما تقوم الذاكرة المؤقتة بأشياء معقدة، حاول إعادة التحميل؟'
+  backHome: 'العودة إلى الصفحة الرئيسية'
+favoriteButton:
+  remove: 'إزالة من المفضلة'
+  add: 'إضافة إلى المفضلة'
+toolCard:
+  new: جديد
+search:
+  label: البحث
+tools:
+  categories:
+    favorite-tools: 'الأدوات المفضلة لديك'
+    crypto: التشفير
+    converter: محول
+    web: ويب
+    images and videos: 'الصور والفيديوهات'
+    development: تطوير
+    network: شبكة
+    math: رياضيات
+    measurement: قياس
+    text: نص
+    data: بيانات

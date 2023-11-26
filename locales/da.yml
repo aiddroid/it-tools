@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: Nyeste værktøjer
+    favoriteTools: 'Dine foretrukne værktøjer'
+    allTools: 'Alle værktøjer'
+  subtitle: 'Praktiske værktøjer til udviklere'
+  toggleMenu: 'Skift menu'
+  home: Hjem
+  uiLib: 'UI Bibliotek'
+  support: 'Støt IT Tools-udviklingen'
+  buyMeACoffee: 'Køb mig en kop kaffe'
+  follow:
+    title: 'Kan du lide IT Tools?'
+    p1: 'Giv os en stjerne på '
+    githubRepository: 'IT Tools GitHub repository'
+    p2: 'eller følg os på '
+    twitterAccount: 'IT Tools Twitter-konto'
+    thankYou: 'Tak!'
+  nav:
+    github: 'GitHub repository'
+    githubRepository: 'IT Tools GitHub repository'
+    twitter: 'Twitter-konto'
+    twitterAccount: 'IT Tools Twitter-konto'
+    about: 'Om IT Tools'
+    aboutLabel: 'Om os'
+    darkMode: 'Mørk tilstand'
+    lightMode: 'Lys tilstand'
+    mode: 'Skift mellem mørk/lys tilstand'
+about:
+  content: >
+    # Om IT Tools
+
+    Dette vidunderlige værktøj samler nyttige værktøjer til udviklere og personer, der arbejder inden for IT. Hvis du finder det nyttigt, er du velkommen til at dele det med andre, som du tror også kan finde det nyttigt!
+
+    ## Har du fundet en fejl?
+
+    Hvis du har brug for et værktøj, der i øjeblikket ikke er til stede her, og du mener, det kan være nyttigt, er du velkommen til at indsende en funktionanmodning i [anmeldelsessektionen](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) i Chrome Webshop.
+
+    ## Mangler et værktøj?
+
+    Og hvis du har fundet en fejl, eller noget ikke fungerer som forventet, bedes du indsende en fejlrapport i [supportsektionen](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) i Chrome Webshop.
+    
+404:
+  notFound: '404 Ikke fundet'
+  sorry: 'Beklager, denne side ser ikke ud til at eksistere'
+  maybe: 'Måske laver cachen nogle tricks, prøv at tvinge en opdatering?'
+  backHome: 'Tilbage til hjemmesiden'
+favoriteButton:
+  remove: 'Fjern fra favoritter'
+  add: 'Tilføj til favoritter'
+toolCard:
+  new: Ny
+search:
+  label: Søg
+tools:
+  categories:
+    favorite-tools: 'Dine foretrukne værktøjer'
+    crypto: Krypto
+    converter: Konvertering
+    web: Web
+    images and videos: 'Billeder & Videoer'
+    development: Udvikling
+    network: Netværk
+    math: Matematik
+    measurement: Måling
+    text: Tekst
+    data: Data

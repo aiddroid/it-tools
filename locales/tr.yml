@@ -1,0 +1,67 @@
+home:
+  categories:
+    newestTools: En yeni araçlar
+    favoriteTools: 'Favori araçlarınız'
+    allTools: 'Tüm araçlar'
+  subtitle: 'Geliştiriciler için kullanışlı araçlar'
+  toggleMenu: 'Menüyü değiştir'
+  home: Ana Sayfa
+  uiLib: 'UI Kütüphanesi'
+  support: 'IT Tools gelişimine destek olun'
+  buyMeACoffee: 'Bana kahve al'
+  follow:
+    title: 'IT Tools seviyor musunuz?'
+    p1: 'Bize bir yıldız verin '
+    githubRepository: 'IT Tools GitHub deposu'
+    p2: 'veya bizi takip edin '
+    twitterAccount: 'IT Tools Twitter hesabı'
+    thankYou: 'Teşekkür ederiz!'
+  nav:
+    github: 'GitHub deposu'
+    githubRepository: 'IT Tools GitHub deposu'
+    twitter: 'Twitter hesabı'
+    twitterAccount: 'IT Tools Twitter hesabı'
+    about: 'IT Tools Hakkında'
+    aboutLabel: 'Hakkında'
+    darkMode: 'Karanlık mod'
+    lightMode: 'Aydınlık mod'
+    mode: 'Karanlık/aydınlık modu değiştir'
+about:
+  content: >
+    # IT Tools Hakkında
+
+    Bu harika araç, geliştiriciler ve IT alanında çalışanlar için faydalı araçları bir araya getirir. Eğer faydalı buluyorsanız, lütfen başkalarıyla paylaşın!
+
+    ## Bir hata mı buldunuz?
+
+    Eğer burada şu anda olmayan bir araç ihtiyacınız varsa ve faydalı olabileceğini düşünüyorsanız, Chrome Web Mağazası'ndaki [inceleme bölümünde](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) bir özellik talebi göndermekten çekinmeyin.
+
+    ## Bir araç mı eksik?
+
+    Ve eğer bir hata bulduysanız veya bir şey beklediğiniz gibi çalışmıyorsa, lütfen Chrome Web Mağazası'ndaki [destek bölümünde](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) bir hata raporu gönderin.
+
+404:
+  notFound: '404 Bulunamadı'
+  sorry: 'Üzgünüm, bu sayfa mevcut gibi görünmüyor'
+  maybe: 'Belki önbellek hile yapıyor, zorla yenilemeyi deneyin?'
+  backHome: 'Ana Sayfaya dön'
+favoriteButton:
+  remove: 'Favorilerden kaldır'
+  add: 'Favorilere ekle'
+toolCard:
+  new: Yeni
+search:
+  label: Ara
+tools:
+  categories:
+    favorite-tools: 'Favori araçlarınız'
+    crypto: Kripto
+    converter: Dönüştürücü
+    web: Web
+    images and videos: 'Görüntüler ve Videolar'
+    development: Geliştirme
+    network: Ağ
+    math: Matematik
+    measurement: Ölçüm
+    text: Metin
+    data: Veri
