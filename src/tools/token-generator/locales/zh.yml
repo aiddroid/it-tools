@@ -1,0 +1,15 @@
+tools:
+  token-generator:
+    title: Token 令牌生成器
+    description: 使用需要的字符生成Token令牌, 大写字母、小写字母、数字和/或特殊符号。
+
+    uppercase: 大写字母 (ABC...)
+    lowercase: 小写字母 (abc...)
+    numbers: 数字 (123...)
+    symbols: 符号 (!-;...)
+    length: 长度
+    tokenPlaceholder: 'token...'
+    copied: Token 令牌已复制到剪贴板
+    button:
+      copy: 复制
+      refresh: 刷新
