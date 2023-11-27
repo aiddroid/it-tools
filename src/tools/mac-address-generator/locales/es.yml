@@ -1,0 +1,15 @@
+tools:
+  mac-address-generator:
+    title: Generador de direcciones MAC
+    description: Ingrese la cantidad y el prefijo. Las direcciones MAC se generarán en el caso que elija (mayúsculas o minúsculas).
+
+    uppercase: Mayúsculas
+    lowercase: Minúsculas
+    macAddressPrefix: Prefijo de la dirección MAC
+    separator: Separador
+    caseTransformer: Caso
+    quantity: Cantidad
+    button:
+      refresh: Actualizar
+      copy: Copiar
+    copied: Dirección MAC copiada al portapapeles

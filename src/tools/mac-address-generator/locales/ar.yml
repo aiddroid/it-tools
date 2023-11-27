@@ -1,0 +1,15 @@
+tools:
+  mac-address-generator:
+    title: مُولِّد عناوين MAC
+    description: أدخل الكمية والبادئة. ستتم إنشاء عناوين MAC بالحالة التي اخترتها (أحرف كبيرة أو صغيرة).
+
+    uppercase: أحرف كبيرة
+    lowercase: أحرف صغيرة
+    macAddressPrefix: بادئة عنوان MAC
+    separator: فاصل
+    caseTransformer: تغيير الحالة
+    quantity: الكمية
+    button:
+      refresh: تحديث
+      copy: نسخ
+    copied: تم نسخ عنوان MAC إلى الحافظة

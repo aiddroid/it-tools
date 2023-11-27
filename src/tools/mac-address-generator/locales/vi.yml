@@ -1,0 +1,15 @@
+tools:
+  mac-address-generator:
+    title: Trình tạo địa chỉ MAC
+    description: Nhập số lượng và tiền tố. Địa chỉ MAC sẽ được tạo ra theo kiểu bạn chọn (in hoa hoặc in thường).
+
+    uppercase: In hoa
+    lowercase: In thường
+    macAddressPrefix: Tiền tố địa chỉ MAC
+    separator: Dấu phân cách
+    caseTransformer: Biến đổi kiểu chữ
+    quantity: Số lượng
+    button:
+      refresh: Làm mới
+      copy: Sao chép
+    copied: Địa chỉ MAC đã được sao chép vào bảng ghi tạm

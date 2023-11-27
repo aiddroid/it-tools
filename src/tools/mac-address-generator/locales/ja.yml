@@ -1,0 +1,15 @@
+tools:
+  mac-address-generator:
+    title: MACアドレスジェネレータ
+    description: 量とプレフィックスを入力してください。MACアドレスは選択したケース（大文字または小文字）で生成されます。
+
+    uppercase: 大文字
+    lowercase: 小文字
+    macAddressPrefix: MACアドレスプレフィックス
+    separator: 区切り文字
+    caseTransformer: ケース
+    quantity: 量
+    button:
+      refresh: リフレッシュ
+      copy: コピー
+    copied: MACアドレスがクリップボードにコピーされました

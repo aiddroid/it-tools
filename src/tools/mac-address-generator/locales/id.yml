@@ -1,0 +1,15 @@
+tools:
+  mac-address-generator:
+    title: Pembuat Alamat MAC
+    description: Masukkan jumlah dan awalan. Alamat MAC akan dihasilkan dalam huruf besar atau kecil sesuai pilihan Anda.
+
+    uppercase: Huruf Besar
+    lowercase: Huruf Kecil
+    macAddressPrefix: Awalan Alamat MAC
+    separator: Pemisah
+    caseTransformer: Huruf
+    quantity: Jumlah
+    button:
+      refresh: Segarkan
+      copy: Salin
+    copied: Alamat MAC disalin ke papan klip

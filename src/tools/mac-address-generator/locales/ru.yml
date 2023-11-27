@@ -1,0 +1,15 @@
+tools:
+  mac-address-generator:
+    title: Генератор MAC-адресов
+    description: Введите количество и префикс. MAC-адреса будут сгенерированы в выбранном вами регистре (заглавные или строчные буквы).
+
+    uppercase: Заглавные буквы
+    lowercase: Строчные буквы
+    macAddressPrefix: Префикс MAC-адреса
+    separator: Разделитель
+    caseTransformer: Регистр
+    quantity: Количество
+    button:
+      refresh: Обновить
+      copy: Копировать
+    copied: MAC-адрес скопирован в буфер обмена

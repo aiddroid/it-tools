@@ -1,0 +1,15 @@
+tools:
+  mac-address-generator:
+    title: Gerador de Endereços MAC
+    description: Insira a quantidade e o prefixo. Endereços MAC serão gerados no caso escolhido (maiúsculas ou minúsculas).
+
+    uppercase: Maiúsculas
+    lowercase: Minúsculas
+    macAddressPrefix: Prefixo do Endereço MAC
+    separator: Separador
+    caseTransformer: Maiúsculas/Minúsculas
+    quantity: Quantidade
+    button:
+      refresh: Atualizar
+      copy: Copiar
+    copied: Endereço MAC copiado para a área de transferência

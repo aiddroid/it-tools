@@ -1,0 +1,15 @@
+tools:
+  mac-address-generator:
+    title: MAC-Adressengenerator
+    description: Geben Sie die Menge und das Präfix ein. MAC-Adressen werden in der von Ihnen gewählten Schreibweise (Groß- oder Kleinschreibung) generiert.
+
+    uppercase: Großbuchstaben
+    lowercase: Kleinbuchstaben
+    macAddressPrefix: MAC-Adressenpräfix
+    separator: Trennzeichen
+    caseTransformer: Schreibweise
+    quantity: Menge
+    button:
+      refresh: Aktualisieren
+      copy: Kopieren
+    copied: MAC-Adresse in die Zwischenablage kopiert

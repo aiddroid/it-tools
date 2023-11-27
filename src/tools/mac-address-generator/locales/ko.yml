@@ -1,0 +1,15 @@
+tools:
+  mac-address-generator:
+    title: MAC 주소 생성기
+    description: 수량과 접두사를 입력하십시오. MAC 주소는 선택한 대/소문자로 생성됩니다.
+
+    uppercase: 대문자
+    lowercase: 소문자
+    macAddressPrefix: MAC 주소 접두사
+    separator: 구분 기호
+    caseTransformer: 대소문자 변환
+    quantity: 수량
+    button:
+      refresh: 새로 고침
+      copy: 복사
+    copied: MAC 주소가 클립보드에 복사되었습니다
