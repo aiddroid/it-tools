@@ -1,0 +1,7 @@
+tools:
+  json-viewer:
+    title: Token generator
+    description: Generate random string with the chars you want, uppercase or lowercase letters, numbers and/or symbols.
+
+    button:
+      unescape: unescape(\")

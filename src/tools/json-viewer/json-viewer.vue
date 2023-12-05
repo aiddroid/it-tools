@@ -5,6 +5,7 @@ import { formatJson } from './json.models';
 import { withDefaultOnError } from '@/utils/defaults';
 import { useValidation } from '@/composable/validation';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
+const { t } = useI18n();
 
 const inputElement = ref<HTMLElement>();
 
@@ -22,6 +23,10 @@ const rawJsonValidation = useValidation({
     },
   ],
 });
+
+function unescapeJson() {
+  rawJson.value = rawJson.value.replaceAll('\\"', '"');
+}
 </script>
 
 <template>
@@ -45,7 +50,7 @@ const rawJsonValidation = useValidation({
       ref="inputElement"
       v-model:value="rawJson"
       placeholder="Paste your raw JSON here..."
-      rows="20"
+      rows="10"
       multiline
       autocomplete="off"
       autocorrect="off"
@@ -54,6 +59,15 @@ const rawJsonValidation = useValidation({
       monospace
     />
   </n-form-item>
+
+  <div flex justify-center gap-3>
+        <c-button @click="unescapeJson">
+          {{ t('tools.json-viewer.button.unescape') }}
+        </c-button>
+  </div>
+
+  <br/>
+
   <n-form-item label="Prettified version of your JSON">
     <TextareaCopyable :value="cleanJson" language="json" :follow-height-of="inputElement" />
   </n-form-item>
