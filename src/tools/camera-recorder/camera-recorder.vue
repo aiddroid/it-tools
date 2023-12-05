@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import _ from 'lodash';
+import { onBeforeUnmount } from 'vue';
 
 import { useMediaRecorder } from './useMediaRecorder';
 
@@ -28,6 +29,7 @@ const permissionCannotBePrompted = ref(false);
 const {
   stream,
   start,
+  stop,
   enabled: isMediaStreamAvailable,
 } = useUserMedia({
   constraints: computed(() => ({
@@ -82,6 +84,8 @@ watchEffect(() => {
     video.value.srcObject = stream.value;
   }
 });
+
+onBeforeUnmount(() => stop());
 
 async function requestPermissions() {
   try {
