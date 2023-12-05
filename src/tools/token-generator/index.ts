@@ -3,7 +3,7 @@ import { defineTool } from '../tool';
 import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
-  name: translate('tools.token-generator.title'),
+  name: 'Token generator',
   path: '/token-generator',
   description: translate('tools.token-generator.description'),
   keywords: ['token', 'random', 'string', 'alphanumeric', 'symbols', 'number', 'letters', 'lowercase', 'uppercase', 'password'],
