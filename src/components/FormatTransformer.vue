@@ -39,7 +39,7 @@ const output = computed(() => transformer.value(input.value));
     v-model:value="input"
     :placeholder="inputPlaceholder"
     :label="inputLabel"
-    rows="10"
+    rows="15"
     autosize
     raw-text
     multiline

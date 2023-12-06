@@ -50,7 +50,7 @@ function unescapeJson() {
       ref="inputElement"
       v-model:value="rawJson"
       placeholder="Paste your raw JSON here..."
-      rows="10"
+      rows="15"
       multiline
       autocomplete="off"
       autocorrect="off"
