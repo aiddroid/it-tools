@@ -27,7 +27,7 @@ const fetchIpInfo = async () => {
   const response = await axios.get('https://itoolkit.app/api/iplocation.php?ip=' + rawIpAddress.value);
   if (response.data) {
     ipInfo.value = response.data.data;
-    if (response.data.code === 0) {
+    if (response.data.code === 0 && rawIpAddress.value === '') {
       rawIpAddress.value = ipInfo.value.query || ipInfo.value.ip;
     } else {
       ipLocationMap.value = null;
