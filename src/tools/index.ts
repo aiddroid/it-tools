@@ -5,6 +5,7 @@ import { tool as ipLocation } from './ip-location';
 import { tool as pdfSignatureChecker } from './pdf-signature-checker';
 import { tool as numeronymGenerator } from './numeronym-generator';
 import { tool as macAddressGenerator } from './mac-address-generator';
+import { tool as textToHex } from './text-to-hex';
 import { tool as textToBinary } from './text-to-binary';
 import { tool as ulidGenerator } from './ulid-generator';
 import { tool as ibanValidatorAndParser } from './iban-validator-and-parser';
@@ -93,6 +94,7 @@ export const toolsByCategory: ToolCategory[] = [
       colorConverter,
       caseConverter,
       textToNatoAlphabet,
+      textToHex,
       textToBinary,
       yamlToJson,
       yamlToToml,

@@ -193,6 +193,7 @@ declare module '@vue/runtime-core' {
     TextDiff: typeof import('./src/tools/text-diff/text-diff.vue')['default']
     TextStatistics: typeof import('./src/tools/text-statistics/text-statistics.vue')['default']
     TextToBinary: typeof import('./src/tools/text-to-binary/text-to-binary.vue')['default']
+    TextToHex: typeof import('./src/tools/text-to-hex/text-to-hex.vue')['default']
     TextToNatoAlphabet: typeof import('./src/tools/text-to-nato-alphabet/text-to-nato-alphabet.vue')['default']
     TokenDisplay: typeof import('./src/tools/otp-code-generator-and-validator/token-display.vue')['default']
     'TokenGenerator.tool': typeof import('./src/tools/token-generator/token-generator.tool.vue')['default']
