@@ -1,0 +1,9 @@
+tools:
+  ip-location:
+    title: IP Location
+    description: Lookup your public IPv4 address where are you location.Find a geolocation of your IP adress including latitude, longitude, city, region and country.
+
+    geolocationNote: The IP location uses several geolocation databases to locate the public IP address. But that does not mean that the IP location is accurate; that location is approximate.
+    ipAddress: The IPv4 address
+    button:
+      query: Query
