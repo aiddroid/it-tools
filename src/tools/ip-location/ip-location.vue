@@ -19,7 +19,8 @@ const ipLocationMap = computed(() => {
 
 const rawIpValidation = useValidation({
   source: rawIpAddress,
-  rules: [{ message: 'Invalid ipv4 address', validator: ip => !ip || isValidIpv4({ ip }) }],
+  // 可输入IP或域名,不再做检测
+  rules: [{ message: 'Invalid IP address', validator: ip => true }],
 });
 
 const fetchIpInfo = async () => {
@@ -42,7 +43,7 @@ onMounted(fetchIpInfo);
     <c-input-text
       v-model:value="rawIpAddress"
       :label="t('tools.ip-location.ipAddress')"
-      placeholder="Input an ipv4 address, or just click the query button..."
+      placeholder="Input an IP address(or domain), or just click the query button to get current IP..."
       :validation="rawIpValidation"
       clearable
     />

@@ -1,9 +1,9 @@
 tools:
   ip-location:
     title: IP 地址位置查询
-    description: 查找您的公共 IPv4 地址所在的位置。查询IP 地址的地理位置，包括ISP运营商、经度、纬度、城市、国家或地区等信息。
+    description: 查找公共 IP(IPv4/IPv6) 地址(或域名)所在的位置。查询IP 地址的地理位置，包括ISP运营商、经度、纬度、城市、国家或地区等信息。
 
     geolocationNote: IP 地址位置查询使用了多个地理定位数据库来确定IP的位置。但这并不意味着该IP定位是精确的，实际上该位置是近似的。
-    ipAddress: IPv4地址
+    ipAddress: IP地址(或域名，如：google.com)
     button:
       query: 查询
