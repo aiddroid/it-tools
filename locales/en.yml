@@ -32,13 +32,13 @@ about:
 
     This wonderful tool, aggregates useful tools for developer and people working in IT. If you find it useful, please feel free to share it to people you think may find it useful too!
 
-    ## Found a bug? 
-
-    If you need a tool that is currently not present here, and you think can be useful, you are welcome to submit a feature request in the [reviews section](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) in the Chrome Web Store.
-
     ## A tool is missing?
+
+    If you need a tool that is currently not present here, and you think can be useful, you are welcome to submit a feature request in the [reviews section in the Chrome Web Store](https://chromewebstore.google.com/detail/it-tools/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/reviews) .
+
+    ## Found a bug? 
     
-    And if you found a bug, or something doesn't work as expected, please file a bug report in the [support section](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) in the Chrome Web Store.
+    And if you found a bug, or something doesn't work as expected, please file a bug report in the [support section in the Chrome Web Store](https://chromewebstore.google.com/detail/ehbfkcepbjbhjiilmhnjcomjegnpcjoc/support) .
 
 404:
   notFound: '404 Not Found'
