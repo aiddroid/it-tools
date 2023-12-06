@@ -5,7 +5,7 @@ import { useCopy } from '@/composable/copy';
 import { isNotThrowing } from '@/utils/boolean';
 
 const inputText = ref('');
-const hexUppercase = useStorage('text-to-hex-uppercase', false);
+const hexUppercase = useStorage('text-to-hex-uppercase', true);
 
 const hexFromText = computed(() => convertTextToHex(inputText.value, hexUppercase.value));
 const { copy: copyHex } = useCopy({ source: hexFromText });
