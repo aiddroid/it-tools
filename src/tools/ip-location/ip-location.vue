@@ -72,7 +72,6 @@ onMounted(fetchIpInfo);
       readonly
       placeholder="N/A"
     />
-  </div>
 
   <n-divider/>
   <n-form-item label=" " label-placement="left" label-width="110" :show-feedback="false">
@@ -88,6 +87,7 @@ onMounted(fetchIpInfo);
           <n-input-number v-model:value="zoomLevel" max="18" min="3" placeholder="Map zoom level (ex: 6)" w-full />
     </n-form-item>
   </div>
+</div>
 </template>
 
 <style lang="less" scoped>
