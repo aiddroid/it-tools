@@ -29,8 +29,6 @@ const fetchIpInfo = async () => {
     ipInfo.value = response.data.data;
     if (response.data.code === 0 && rawIpAddress.value === '') {
       rawIpAddress.value = ipInfo.value.query || ipInfo.value.ip;
-    } else {
-      ipLocationMap.value = null;
     }
   }
 };
