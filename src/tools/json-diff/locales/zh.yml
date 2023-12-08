@@ -1,0 +1,4 @@
+tools:
+  json-diff:
+    title: JSON diff 差异检查
+    description: '比较两个 JSON 对象，diff检查它们之间的差异。'

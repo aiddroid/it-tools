@@ -3,6 +3,7 @@ import { v1 as generateUuidV1, v3 as generateUuidV3, v4 as generateUuidV4, v5 as
 import { useCopy } from '@/composable/copy';
 import { computedRefreshable } from '@/composable/computedRefreshable';
 import { withDefaultOnError } from '@/utils/defaults';
+const { t } = useI18n();
 
 const versions = ['NIL', 'v1', 'v3', 'v4', 'v5'] as const;
 
@@ -42,15 +43,15 @@ const [uuids, refreshUUIDs] = computedRefreshable(() => withDefaultOnError(() =>
     return generator(index);
   }).join('\n'), ''));
 
-const { copy } = useCopy({ source: uuids, text: 'UUIDs copied to the clipboard' });
+const { copy } = useCopy({ source: uuids, text: t('tools.uuid-generator.copied') });
 </script>
 
 <template>
   <div>
-    <c-buttons-select v-model:value="version" :options="versions" label="UUID version" label-width="100px" mb-2 />
+    <c-buttons-select v-model:value="version" :options="versions" :label="t('tools.uuid-generator.label.uuidVersion')" label-width="100px" mb-2 />
 
     <div mb-2 flex items-center>
-      <span w-100px>Quantity </span>
+      <span w-100px>{{ t('tools.uuid-generator.label.quantity') }} </span>
       <n-input-number v-model:value="count" flex-1 :min="1" :max="50" placeholder="UUID quantity" />
     </div>
 
@@ -107,10 +108,10 @@ const { copy } = useCopy({ source: uuids, text: 'UUIDs copied to the clipboard' 
 
     <div flex justify-center gap-3>
       <c-button autofocus @click="copy()">
-        Copy
+        {{ t('tools.uuid-generator.button.copy') }}
       </c-button>
       <c-button @click="refreshUUIDs">
-        Refresh
+        {{ t('tools.uuid-generator.button.refresh') }}
       </c-button>
     </div>
   </div>

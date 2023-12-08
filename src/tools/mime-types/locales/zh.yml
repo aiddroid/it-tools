@@ -1,0 +1,4 @@
+tools:
+  mime-types:
+    title: 文件 MIME 类型查询
+    description: '将 MIME 类型转换为扩展名, 或者根据扩展名查询MIME。'

@@ -1,0 +1,5 @@
+tools:
+  rsa-key-pair-generator:
+    title: RSA密钥对生成器
+    description: '生成新的随机RSA公钥和私钥PEM证书。'
+    

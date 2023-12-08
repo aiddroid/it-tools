@@ -1,0 +1,4 @@
+tools:
+  html-entities:
+    title: HTML 实体转义 / 反转义
+    description: "转义或反转义 HTML 实体（替换 <,>, &, \" 和 ' 为其 HTML 值）"

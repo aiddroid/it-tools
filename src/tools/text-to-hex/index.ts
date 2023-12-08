@@ -1,10 +1,11 @@
 import { Replace } from '@vicons/tabler';
 import { defineTool } from '../tool';
+import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
   name: 'Text to Hex',
   path: '/text-to-hex',
-  description: 'Convert text to its Hex(Hexadecimal, base-16 number system) representation and vice versa.',
+  description: translate('tools.text-to-hex.description'),
   keywords: ['text', 'to', 'hex'],
   component: () => import('./text-to-hex.vue'),
   icon: Replace,

@@ -1,0 +1,4 @@
+tools:
+  percentage-calculator:
+    title: 百分比计算器
+    description: '轻松计算从一个值与另一个值的百分比，或从一个百分比到具体值。'

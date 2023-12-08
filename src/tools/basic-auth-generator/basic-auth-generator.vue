@@ -2,7 +2,7 @@
 import { useCopy } from '@/composable/copy';
 import { textToBase64 } from '@/utils/base64';
 
-const username = ref('');
+const username = ref('admin');
 const password = ref('');
 const header = computed(() => `Authorization: Basic ${textToBase64(`${username.value}:${password.value}`)}`);
 

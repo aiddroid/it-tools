@@ -1,0 +1,4 @@
+tools:
+  otp-generator:
+    title: 一次性密码（多因素身份验证）生成器
+    description: '生成和验证基于时间的一次性密码（用于多因素身份验证）。'

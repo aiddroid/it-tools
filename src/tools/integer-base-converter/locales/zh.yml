@@ -1,0 +1,4 @@
+tools:
+  base-converter:
+    title: 整数进制转换器
+    description: '将数字转换为不同的进制（二进制，八进制，十进制，十六进制，base64，...）'

@@ -1,0 +1,4 @@
+tools:
+  base64-string-converter:
+    title: Base64 字符串编码器/解码器
+    description: '将字符串转换为base64表示形式。'

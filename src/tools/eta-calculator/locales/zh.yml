@@ -1,0 +1,4 @@
+tools:
+  eta-calculator:
+    title: 预计到达时(ETA)间计算器
+    description: '预计到达时间(Estimated Time of Arrival)计算器，用于了解任务的大致结束时间，例如下载完成的时刻。'

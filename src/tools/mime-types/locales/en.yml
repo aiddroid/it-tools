@@ -1,0 +1,4 @@
+tools:
+  mime-types:
+    title: MIME types
+    description: 'Convert mime types to extensions and vice-versa.'

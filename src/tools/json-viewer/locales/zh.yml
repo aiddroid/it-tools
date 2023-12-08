@@ -1,0 +1,7 @@
+tools:
+  json-prettify:
+    title: JSON 美化和格式化
+    description: 将 JSON 字符串美化为易于阅读的格式。
+
+    button:
+      unescape: 去除转义符(\")

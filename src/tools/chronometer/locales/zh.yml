@@ -1,0 +1,4 @@
+tools:
+  chronometer:
+    title: 计时器
+    description: '监视事物的持续时间。一个简单的计时器，具有简单的计时器功能。'

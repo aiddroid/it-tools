@@ -1,0 +1,12 @@
+tools:
+  ulid-generator:
+    title: ULID 生成器
+    description: '生成随机的全局唯一可排序标识符Universally Unique Lexicographically Sortable Identifier（ULID）。'
+
+    label:
+      quantity: 数量
+      format: 格式
+    button:
+      refresh: 刷新
+      copy: 复制
+    copied: ULID 已复制到剪贴板

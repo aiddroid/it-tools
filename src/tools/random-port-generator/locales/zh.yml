@@ -1,0 +1,4 @@
+tools:
+  random-port-generator:
+    title: 随机端口号生成器
+    description: '生成在0-1023范围之外的随机端口号。'

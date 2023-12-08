@@ -1,0 +1,4 @@
+tools:
+  emoji-picker:
+    title: Emoji表情选择器
+    description: 轻松复制和粘贴表情符号，并获取每个表情符号的 Unicode 和代码点值。

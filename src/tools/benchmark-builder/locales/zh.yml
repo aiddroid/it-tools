@@ -1,0 +1,4 @@
+tools:
+  benchmark-builder:
+    title: Benchmark基准测试生成器
+    description: 非常简单的在线基准测试生成器, 轻松比较任务的执行时间。

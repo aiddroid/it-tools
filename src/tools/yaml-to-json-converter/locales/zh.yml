@@ -1,0 +1,4 @@
+tools:
+  yaml-to-json-converter:
+    title: YAML 转 JSON
+    description: '轻松地将 YAML 转换为 JSON。'

@@ -1,0 +1,4 @@
+tools:
+  user-agent-parser:
+    title: 用户代理(User-Agent)解析器
+    description: '从用户代理(User-Agent)字符串中检测和解析浏览器，引擎，操作系统，CPU，以及设备类型和型号。'

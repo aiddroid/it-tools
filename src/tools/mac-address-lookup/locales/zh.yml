@@ -1,0 +1,4 @@
+tools:
+  mac-address-lookup:
+    title: MAC 地址查询
+    description: '通过 MAC 地址查询设备的厂商和制造商。'

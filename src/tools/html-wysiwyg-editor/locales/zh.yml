@@ -1,0 +1,4 @@
+tools:
+  html-wysiwyg-editor:
+    title: HTML所见即所得(富文本)编辑器
+    description: 具有丰富特性的在线富文本HTML编辑器，提供直观的所见即所得编辑编辑功能，可立即获取编辑内容的HTML源代码。

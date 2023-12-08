@@ -3,7 +3,7 @@ import { defineTool } from '../tool';
 import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
-  name: 'Ip location',
+  name: 'IP location',
   path: '/ip-location',
   description: translate('tools.ip-location.description'),
   keywords: ['ip', 'location'],

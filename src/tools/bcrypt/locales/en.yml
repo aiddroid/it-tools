@@ -1,0 +1,4 @@
+tools:
+  bcrypt:
+    title: BCrypt
+    description: Generate a random password using the BCrypt algorithm.

@@ -1,0 +1,12 @@
+tools:
+  uuid-generator:
+    title: UUID 生成器
+    description: '全局唯一标识符(UUID) 是一种用于在计算机系统中标识信息的 128 位数字。所有可能的 UUID 数量为 16^32，等于 2^128 或 3.4x10^38（这是一个相当庞大的数量！）。'
+
+    label:
+      uuidVersion: UUID 版本
+      quantity: UUID 数量
+    button:
+      refresh: 刷新
+      copy: 复制
+    copied: UUID 已复制到剪贴板

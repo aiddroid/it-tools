@@ -1,5 +1,5 @@
 tools:
-  json-viewer:
+  json-prettify:
     title: JSON prettify and format
     description: Prettify your JSON string to a human friendly readable format.
 

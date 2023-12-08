@@ -1,0 +1,4 @@
+tools:
+  crontab-generator:
+    title: Crontab 定时任务生成器
+    description: '校验并生成Crontab定时任务，并获取Crontab定时任务的可读性描述。'

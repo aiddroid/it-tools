@@ -1,0 +1,4 @@
+tools:
+  chmod-calculator:
+    title: chmod 权限计算器
+    description: '在线计算 chmod 权限和命令'

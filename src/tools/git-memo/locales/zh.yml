@@ -1,0 +1,5 @@
+tools:
+  git-memo:
+    # title: Git cheatsheet
+    title: Git 命令速查表
+    description: 'Git 是一个去中心化的版本管理软件。 通过 Git 命令速查表，您将可以快速找到常用的 git 命令。'

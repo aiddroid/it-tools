@@ -1,0 +1,4 @@
+tools:
+  wifi-qrcode-generator:
+    title: WiFi 二维码(QR)生成器
+    description: '生成并下载可以用于快速连接到 WiFi 网络的二维码'

@@ -1,0 +1,4 @@
+tools:
+  bcrypt:
+    title: BCrypt哈希散列
+    description: 使用BCrypt哈希散列算法生成随机密码。

@@ -1,0 +1,4 @@
+tools:
+  temperature-converter:
+    title: 温度转换器
+    description: 温度度数转换，包括开尔文（Kelvin）、摄氏度（Celsius）、华氏度（Fahrenheit）、兰氏度（Rankine）、德利尔（Delisle）、牛顿（Newton）、列氏度（Réaumur）和略默（Rømer）的转换。

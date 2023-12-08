@@ -1,0 +1,12 @@
+tools:
+  ulid-generator:
+    title: ULID Generator
+    description: 'Generate random Universally Unique Lexicographically Sortable Identifier (ULID).'
+
+    label:
+      quantity: 'Quantity:'
+      format: 'Format:'
+    button:
+      refresh: Refresh
+      copy: Copy
+    copied: ULIDs copied to the clipboard

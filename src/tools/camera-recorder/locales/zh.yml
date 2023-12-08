@@ -1,0 +1,4 @@
+tools:
+  camera-recorder:
+    title: 摄像头录像
+    description: '从摄像头或者相机中录制视频或者拍摄照片。'

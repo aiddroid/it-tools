@@ -1,0 +1,4 @@
+tools:
+  case-converter:
+    title: 字符串大小写转换
+    description: '将字符串转换为不同的格式（大写、小写、首字母大写、首字母小写等）'

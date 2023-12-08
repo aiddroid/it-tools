@@ -1,0 +1,4 @@
+tools:
+  bip39-generator:
+    title: Bip39助记词生成器
+    description: 从现有或随机助记词生成BIP39口令短语，或从口令短语中获取助记词

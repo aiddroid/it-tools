@@ -1,0 +1,4 @@
+tools:
+  basic-auth-generator:
+    title: 基本认证(Basic Auth)生成器
+    description: '根据用户名和密码生成base64的基本认证(Basic Auth)头, 作用相当于htpasswd工具。'

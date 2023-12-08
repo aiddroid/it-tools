@@ -1,0 +1,4 @@
+tools:
+  hmac-generator:
+    title: Hmac 生成器
+    description: '使用密钥和你喜欢的哈希函数生成HMAC（哈希消息鉴别码）'

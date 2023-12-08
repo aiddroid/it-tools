@@ -1,0 +1,4 @@
+tools:
+  text-to-nato-alphabet:
+    title: 文本 转 北约音标字母
+    description: '将文本转换为用于口头传输的北约音标字母(NATO phonetic alphabet)。'

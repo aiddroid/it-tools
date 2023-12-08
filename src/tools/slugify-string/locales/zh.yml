@@ -1,0 +1,4 @@
+tools:
+  slugify-string:
+    title: 生成URL友好字符串(Slugify)
+    description: '使字符串在 URL、文件名和标识符中更加安全,友好可读'

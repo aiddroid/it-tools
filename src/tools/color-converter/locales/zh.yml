@@ -1,0 +1,4 @@
+tools:
+  color-converter:
+    title: 颜色转换器
+    description: '将颜色从不同的格式（十六进制、RGB、HSL和CSS名称）转换为另一种格式（十六进制、RGB、HSL和CSS名称）。'

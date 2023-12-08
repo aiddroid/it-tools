@@ -1,0 +1,4 @@
+tools:
+  json-to-toml:
+    title: JSON 转 TOML
+    description: '解析JSON，并把 JSON 转为 TOML.'

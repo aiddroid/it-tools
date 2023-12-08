@@ -1,0 +1,4 @@
+tools:
+  lorem-ipsum-generator:
+    title: Lorem Ipsum 生成器
+    description: Lorem ipsum 是一种常用的占位文本，用于演示文档或字体的视觉形式，而无需依赖有意义的内容。

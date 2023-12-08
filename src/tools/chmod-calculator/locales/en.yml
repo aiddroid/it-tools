@@ -1,0 +1,4 @@
+tools:
+  chmod-calculator:
+    title: chmod Calculator
+    description: 'Compute your chmod permissions and commands with this online chmod calculator.'

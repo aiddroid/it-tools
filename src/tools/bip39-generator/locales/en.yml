@@ -1,0 +1,4 @@
+tools:
+  bip39-generator:
+    title: Bip39 Generator
+    description: 'Generate BIP39 passphrase from existing or random mnemonic, or get the mnemonic from the passphrase.'

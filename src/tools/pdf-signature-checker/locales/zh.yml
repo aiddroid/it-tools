@@ -1,0 +1,4 @@
+tools:
+  pdf-signature-checker:
+    title: PDF 文件签名校验器
+    description: '验证PDF文件的签名。一个已签名的PDF文件可能包含一个或多个签名，它们可以用于确定文件内容是否已被他人修改。'

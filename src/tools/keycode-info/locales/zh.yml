@@ -1,0 +1,4 @@
+tools:
+  keycode-info:
+    title: 按键 KeyCode 信息查询
+    description: '查询任意按键的 JavaScript 键码，代码，位置和修饰符。'

@@ -1,0 +1,4 @@
+tools:
+  ipv4-subnet-calculator:
+    title: IPv4 子网计算器
+    description: '解析您的 IPv4 CIDR 块并获取您所需的子网信息。'

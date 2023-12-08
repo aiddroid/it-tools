@@ -1,0 +1,4 @@
+tools:
+  ipv6-ula-generator:
+    title: IPv6 ULA Generator
+    description: 'Generate your own local, non-routable IP addresses on your network according to RFC4193.'

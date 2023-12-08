@@ -1,0 +1,4 @@
+tools:
+  string-obfuscator:
+    title: 字符串混淆器
+    description: 对字符串进行混淆（例如秘密、国际银行账号(IBAN)或令牌），以便可以分享和识别，而不暴露其内容。

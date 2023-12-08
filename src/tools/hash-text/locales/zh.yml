@@ -1,0 +1,5 @@
+tools:
+  hash-text:
+    title: 文本哈希Hash
+    description: '输入文本字符串，选择你需要的哈希散列函数：MD5，SHA1，SHA256，SHA224，SHA512，SHA384，SHA3或RIPEMD160'
+    

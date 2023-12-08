@@ -1,0 +1,4 @@
+tools:
+  json-to-csv:
+    title: JSON 转 CSV
+    description: '通过自动检测表头，将JSON转换为CSV。'

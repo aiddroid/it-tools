@@ -1,10 +1,11 @@
 import { Keyboard } from '@vicons/tabler';
 import { defineTool } from '../tool';
+import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
   name: 'Keycode info',
   path: '/keycode-info',
-  description: 'Find the javascript keycode, code, location and modifiers of any pressed key.',
+  description: translate('keycode-info.description'),
   keywords: [
     'keycode',
     'info',

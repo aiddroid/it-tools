@@ -1,0 +1,12 @@
+tools:
+  uuid-generator:
+    title: UUID Generator
+    description: 'A Universally Unique Identifier (UUID) is a 128-bit number used to identify information in computer systems. The number of possible UUIDs is 16^32, which is 2^128 or about 3.4x10^38 (which is a lot!).'
+
+    label:
+      uuidVersion: UUID Version
+      quantity: Quantity
+    button:
+      refresh: Refresh
+      copy: Copy
+    copied: UUID copied to clipboard
