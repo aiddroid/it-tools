@@ -52,6 +52,7 @@ toolCard:
   new: 신규
 search:
   label: 검색
+  placeholder: '작은 도구를 검색하는 방법'
 tools:
   categories:
     favorite-tools: '즐겨찾기한 도구'

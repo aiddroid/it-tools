@@ -52,6 +52,7 @@ toolCard:
   new: Nytt
 search:
   label: Sök
+  placeholder: Sök i alla verktyg
 tools:
   categories:
     favorite-tools: 'Dina favoritverktyg'

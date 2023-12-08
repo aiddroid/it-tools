@@ -52,6 +52,7 @@ toolCard:
   new: ใหม่
 search:
   label: ค้นหา
+  placeholder: 'ค้นหาเครื่องมือที่คุณชื่นชอบ'
 tools:
   categories:
     favorite-tools: 'เครื่องมือที่คุณชื่นชอบ'

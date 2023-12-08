@@ -52,6 +52,7 @@ toolCard:
   new: 'Neu'
 search:
   label: 'Suche'
+  placeholder: 'Suche nach einem Werkzeug oder einem Befehl...'
 tools:
   categories:
     favorite-tools: 'Ihre Lieblingswerkzeuge'

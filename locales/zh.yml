@@ -52,6 +52,7 @@ toolCard:
   new: '新'
 search:
   label: '搜索'
+  placeholder: '搜索您想要使用的工具'
 tools:
   categories:
     favorite-tools: '我的收藏'

@@ -52,6 +52,7 @@ toolCard:
   new: Ny
 search:
   label: Søg
+  placeholder: Søg i alle værktøjer
 tools:
   categories:
     favorite-tools: 'Dine foretrukne værktøjer'

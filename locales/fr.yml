@@ -44,6 +44,7 @@ toolCard:
   new: Nouveau
 search:
   label: Rechercher
+  placeholder: 'Rechercher vos outils favoris'
 tools:
   categories:
     favorite-tools: 'Vos outils favoris'

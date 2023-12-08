@@ -52,6 +52,7 @@ toolCard:
   new: Mới
 search:
   label: Tìm kiếm
+  placeholder: 'Tìm kiếm một cụ hữu ích'
 tools:
   categories:
     favorite-tools: 'Công cụ ưa thích của bạn'

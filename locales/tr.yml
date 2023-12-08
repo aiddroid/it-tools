@@ -52,6 +52,7 @@ toolCard:
   new: Yeni
 search:
   label: Ara
+  placeholder: 'Araçlarınızı favorilere ekleyin'
 tools:
   categories:
     favorite-tools: 'Favori araçlarınız'

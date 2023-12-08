@@ -52,6 +52,7 @@ toolCard:
   new: Baru
 search:
   label: Cari
+  placeholder: 'Cari alat favorit Anda'
 tools:
   categories:
     favorite-tools: 'Alat Favorit Anda'

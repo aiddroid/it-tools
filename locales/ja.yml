@@ -52,6 +52,7 @@ toolCard:
   new: '新着'
 search:
   label: '検索'
+  placeholder: 'お気に入りのツールを検索'
 tools:
   categories:
     favorite-tools: 'お気に入りのツール'
