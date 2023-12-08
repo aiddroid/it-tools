@@ -79,7 +79,7 @@ function unescapeJson() {
     </n-form-item>
     <div flex justify-center>
       <c-button @click="unescapeJson">
-        {{ t('tools.json-viewer.button.unescape') }}
+        {{ t('tools.json-prettify.button.unescape') }}
       </c-button>
     </div>
   </c-card>
