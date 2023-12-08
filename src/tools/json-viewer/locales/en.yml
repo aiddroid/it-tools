@@ -1,7 +1,7 @@
 tools:
   json-viewer:
-    title: Token generator
-    description: Generate random string with the chars you want, uppercase or lowercase letters, numbers and/or symbols.
+    title: JSON prettify and format
+    description: Prettify your JSON string to a human friendly readable format.
 
     button:
-      unescape: unescape(\")
+      unescape: Unescape(\")

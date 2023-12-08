@@ -30,6 +30,7 @@ function unescapeJson() {
 </script>
 
 <template>
+  <c-card>
   <div style="flex: 0 0 100%">
     <div style="margin: 0 auto; max-width: 600px" flex justify-center gap-3>
       <n-form-item label="Sort keys :" label-placement="left" label-width="100">
@@ -59,18 +60,20 @@ function unescapeJson() {
       monospace
     />
   </n-form-item>
-
-  <div flex justify-center gap-3>
+  <div flex justify-center>
         <c-button @click="unescapeJson">
           {{ t('tools.json-viewer.button.unescape') }}
         </c-button>
   </div>
+</c-card>
 
   <br/>
 
-  <n-form-item label="Prettified version of your JSON">
-    <TextareaCopyable :value="cleanJson" language="json" :follow-height-of="inputElement" />
-  </n-form-item>
+  <c-card>
+    <n-form-item label="Prettified version of your JSON">
+      <TextareaCopyable :value="cleanJson" language="json" :follow-height-of="inputElement" />
+    </n-form-item>
+  </c-card>
 </template>
 
 <style lang="less" scoped>
