@@ -1,4 +1,4 @@
 tools:
   text-to-hex:
-    title: 文本 / 十六进制Hex 转换器
-    description: '将文本转换为十六进制(Hexadecimal，16进制)表示形式，或者将十六进制(Hexadecimal，16进制)转换为文本。'
+    title: 文本 / 十六进制HEX 转换器
+    description: '将文本转换为十六进制(Hexadecimal，16进制)表示形式，或者将十六进制HEX转换为文本。'

@@ -1,4 +1,4 @@
 tools:
   text-to-hex:
-    title: Text to Hex
-    description: 'Convert text to its Hex(Hexadecimal, base-16 number system) representation and vice versa.'
+    title: Text to HEX
+    description: 'Convert text to its HEX(Hexadecimal, base-16 number system) representation and vice versa.'

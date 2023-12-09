@@ -5,9 +5,10 @@ import { useCopy } from '@/composable/copy';
 import { isNotThrowing } from '@/utils/boolean';
 
 const inputText = ref('');
-const hexUppercase = useStorage('text-to-hex-uppercase', true);
+const isUppercase = useStorage('text-to-hex-uppercase', true);
+const hasSeperator = useStorage('text-to-hex-seperator', false);
 
-const hexFromText = computed(() => convertTextToHex(inputText.value, hexUppercase.value));
+const hexFromText = computed(() => convertTextToHex(inputText.value, isUppercase.value, { separator: hasSeperator.value ? ' ' : '' }));
 const { copy: copyHex } = useCopy({ source: hexFromText });
 
 const inputHex = ref('');
@@ -25,8 +26,11 @@ const { copy: copyText } = useCopy({ source: textFromHex });
   <c-card title="Text to Hex">
     <c-input-text v-model:value="inputText" multiline placeholder="e.g. 'Hello world'" label="Enter text to convert to Hex" autosize autofocus raw-text test-id="text-to-hex-input" />
     <c-input-text v-model:value="hexFromText" label="Hex from your text" multiline raw-text readonly mt-2 placeholder="The Hex representation of your text will be here" test-id="text-to-hex-output" />
-    <n-form-item label="Hex upper case" label-placement="left">
-      <n-switch v-model:value="hexUppercase" />
+    <n-form-item label="Upper case" label-placement="left">
+      <n-switch v-model:value="isUppercase" />
+    </n-form-item>
+    <n-form-item label="Has seperator" label-placement="left">
+      <n-switch v-model:value="hasSeperator" />
     </n-form-item>
     <div mt-2 flex justify-center>
       <c-button :disabled="!hexFromText" @click="copyHex()">
