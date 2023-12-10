@@ -26,7 +26,7 @@
     "test": "npm run test:unit",
     "test:unit": "vitest --environment jsdom",
     "test:e2e": "playwright test",
-    "test:e2e:dev": "BASE_URL=http://localhost:5173 NO_WEB_SERVER=true playwright test",
+    "test:e2e:dev": "BASE_URL=http://localhost:5173/it-tools/ NO_WEB_SERVER=true playwright test --project=chromium",
     "coverage": "vitest run --coverage",
     "typecheck": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint src --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore",

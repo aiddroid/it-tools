@@ -31,6 +31,7 @@ export default defineConfig({
     testIdAttribute: 'data-test-id',
     locale: 'en-GB',
     timezoneId: 'Europe/Paris',
+    headless: false,
   },
 
   /* Configure projects for major browsers */
