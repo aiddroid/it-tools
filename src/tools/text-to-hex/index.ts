@@ -3,7 +3,7 @@ import { defineTool } from '../tool';
 import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
-  name: 'Text to Hex',
+  name: 'Text to HEX',
   path: '/text-to-hex',
   description: translate('tools.text-to-hex.description'),
   keywords: ['text', 'to', 'hex'],
