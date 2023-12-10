@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-export {isValidIpv4 };
+export { isValidIpv4 };
 
 function isValidIpv4({ ip }: { ip: string }) {
   const cleanIp = ip.trim();

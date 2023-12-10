@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { isValidIpv4 } from './ip-location.service';
-import { useValidation } from '@/composable/validation';
 import axios from 'axios';
 import { computed, onMounted, ref } from 'vue';
+import { isValidIpv4 } from './ip-location.service';
+import { useValidation } from '@/composable/validation';
+
 const { t } = useI18n();
 
 const rawIpAddress = ref('');
@@ -12,7 +13,8 @@ const zoomLevel = ref(5);
 const ipLocationMap = computed(() => {
   if (ipInfo.value && ipInfo.value.longitude && ipInfo.value.latitude) {
     return `http://api.map.baidu.com/staticimage?center=${ipInfo.value.longitude},${ipInfo.value.latitude}&width=800&height=600&zoom=${zoomLevel.value}&markers=${ipInfo.value.longitude},${ipInfo.value.latitude}`;
-  } else {
+  }
+  else {
     return null;
   }
 });
@@ -23,15 +25,15 @@ const rawIpValidation = useValidation({
   rules: [{ message: 'Invalid IP address', validator: ip => true }],
 });
 
-const fetchIpInfo = async () => {
-  const response = await axios.get('https://itoolkit.app/api/iplocation.php?ip=' + rawIpAddress.value);
+async function fetchIpInfo() {
+  const response = await axios.get(`https://itoolkit.app/api/iplocation.php?ip=${rawIpAddress.value}`);
   if (response.data) {
     ipInfo.value = response.data.data;
     if (response.data.code === 0 && rawIpAddress.value === '') {
       rawIpAddress.value = ipInfo.value.query || ipInfo.value.ip;
     }
   }
-};
+}
 
 onMounted(fetchIpInfo);
 </script>
@@ -44,12 +46,13 @@ onMounted(fetchIpInfo);
       placeholder="Input an IP address(or domain), or just click the query button to get current IP..."
       :validation="rawIpValidation"
       clearable
+      test-id="ip-address-input"
     />
 
     <div mt-5 flex justify-center gap-3>
-        <c-button @click="fetchIpInfo">
-          {{ t('tools.ip-location.button.query') }}
-        </c-button>
+      <c-button test-id="ip-query-button" @click="fetchIpInfo">
+        {{ t('tools.ip-location.button.query') }}
+      </c-button>
     </div>
 
     <n-divider />
@@ -59,33 +62,36 @@ onMounted(fetchIpInfo);
     </n-form-item> -->
 
     <input-copyable
-      v-for="[ label, value ] of Object.entries(ipInfo)"
+      v-for="[label, value] of Object.entries(ipInfo)"
       :key="label"
       :label="label"
       label-position="left"
       label-width="110px"
       label-align="right"
-      mb-2
+
       :value="value"
-      readonly
+      readonly mb-2
       placeholder="N/A"
+      :test-id="label"
     />
 
-  <n-divider/>
-  <n-form-item label=" " label-placement="left" label-width="110" :show-feedback="false">
-      <div style="font-size:12px;font-style:italic;">{{ t('tools.ip-location.geolocationNote') }}</div>
-  </n-form-item>
+    <n-divider />
+    <n-form-item label=" " label-placement="left" label-width="110" :show-feedback="false">
+      <div style="font-size:12px;font-style:italic;">
+        {{ t('tools.ip-location.geolocationNote') }}
+      </div>
+    </n-form-item>
 
-  <div v-if="ipLocationMap">
-    <n-form-item label="Map" label-placement="left" label-width="110" :show-feedback="false">
-      <img class="location-map" :src="ipLocationMap" alt="Geo location">
-    </n-form-item>
-    <br>
-    <n-form-item label="Zoom level" label-placement="left" label-width="110" :show-feedback="false">
-          <n-input-number v-model:value="zoomLevel" max="18" min="3" placeholder="Map zoom level (ex: 6)" w-full />
-    </n-form-item>
+    <div v-if="ipLocationMap">
+      <n-form-item label="Map" label-placement="left" label-width="110" :show-feedback="false">
+        <img class="location-map" :src="ipLocationMap" alt="Geo location">
+      </n-form-item>
+      <br>
+      <n-form-item label="Zoom level" label-placement="left" label-width="110" :show-feedback="false">
+        <n-input-number v-model:value="zoomLevel" max="18" min="3" placeholder="Map zoom level (ex: 6)" w-full />
+      </n-form-item>
+    </div>
   </div>
-</div>
 </template>
 
 <style lang="less" scoped>
