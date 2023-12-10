@@ -1,0 +1,6 @@
+tools:
+  regex-visualization-tester:
+    title: 正则可视化测试器
+    description: '在浏览器中可视化测试你的正则表达式。'
+
+    

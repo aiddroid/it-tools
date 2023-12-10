@@ -137,6 +137,9 @@ dependencies:
   qrcode:
     specifier: ^1.5.1
     version: 1.5.1
+  regulex_common:
+    specifier: ^0.1.1
+    version: 0.1.1
   sql-formatter:
     specifier: ^13.0.0
     version: 13.0.0
@@ -7874,6 +7877,10 @@ packages:
     dependencies:
       jsesc: 0.5.0
     dev: true
+
+  /regulex_common@0.1.1:
+    resolution: {integrity: sha512-3vtXNK2JiErrEqwO0ld3Le6qnkFJmGNUq1tx08iW0A5TeGZOWdqj2ozXK0yf+s9O4Z90NoHX6dtdHsdYiR3luA==}
+    dev: false
 
   /require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}

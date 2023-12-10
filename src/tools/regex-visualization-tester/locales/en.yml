@@ -1,0 +1,6 @@
+tools:
+  regex-visualization-tester:
+    title: Regex Visualization Tester
+    description: 'Test your regex by visualizing it in the browser.'
+
+    
