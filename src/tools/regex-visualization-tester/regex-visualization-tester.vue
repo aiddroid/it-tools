@@ -27,7 +27,7 @@ const regexGraph = ref('');
 const inputRegexTextValidationRules = [
   {
     validator: (value: string) => isNotThrowing(() => isValidRegex(value)),
-    message: 'Input value should be a valid regex string, please check [] or {} pairs carfully.',
+    message: 'Input value should be a valid regex string, please check (), [] or {} pairs carfully.',
   },
 ];
 
