@@ -39,7 +39,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
+  <div style="flex: 0 1 800px; max-width: 800px;">
     <c-input-text v-model:value="inputRegexText" label="Enter regex for test(without //):" placeholder="e.g. '[0-9A-F]{32}' to match a MD5 checksum." :validation-rules="inputRegexTextValidationRules" multiline autosize clearable raw-text test-id="regex-text-input" />
 
     <n-form-item label="" label-placement="left">
