@@ -1,0 +1,9 @@
+tools:
+ file-checksum-checker:
+   title: File checksum checker
+   description: 'Check the checksum of a file using the algorithm you need : MD5, SHA1, SHA256'
+
+
+   label:
+     drapOrDropHere: Drag and drop a file here, or click to select a file
+     browseFiles: Browse files

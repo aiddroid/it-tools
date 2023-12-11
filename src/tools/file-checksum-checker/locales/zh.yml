@@ -1,0 +1,8 @@
+tools:
+ file-checksum-checker:
+   title: 文件校验和(checksum)检查器
+   description: '检查文件的校验和（checksum）, 使用的算法：MD5，SHA1，SHA256'
+
+   label:
+     drapOrDropHere: 请将文件拖拽到此处, 或者点击选择文件
+     browseFiles: 选择文件
