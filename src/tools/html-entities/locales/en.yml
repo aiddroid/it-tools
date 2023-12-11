@@ -1,4 +1,4 @@
 tools:
   html-entities:
     title: Escape/unescape html entities
-    description: "Escape or unescape html entities (replace <,>, &, \" and ' to their html version)"
+    description: "Escape or unescape html entities (replace &lt;,&gt;, &amp;, \" and ' to their html version)"
