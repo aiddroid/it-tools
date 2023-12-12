@@ -5,3 +5,4 @@ tools:
 
     button:
       unescape: 去除转义符(\")
+      parseRecursively: 递归解析

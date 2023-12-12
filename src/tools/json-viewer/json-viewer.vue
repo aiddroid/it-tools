@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import JSON5 from 'json5';
 import { useStorage } from '@vueuse/core';
+import VueJsonPretty from 'vue-json-pretty';
 import { formatJson } from './json.models';
 import { withDefaultOnError } from '@/utils/defaults';
 import { useValidation } from '@/composable/validation';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
-import VueJsonPretty from 'vue-json-pretty';
 import 'vue-json-pretty/lib/styles.css';
 
 const { t } = useI18n();
@@ -30,8 +30,52 @@ const rawJsonValidation = useValidation({
   ],
 });
 
-function unescapeJson() {
+function onUnescapeJson() {
   rawJson.value = rawJson.value.replace(/\\"/g, '"');
+}
+
+function parseJSONRecursively(obj) {
+  // 如果输入的 obj 是一个字符串，尝试解析它
+  if (typeof obj === 'string') {
+    try {
+      return JSON.parse(obj);
+    }
+    catch (error) {
+      // 解析失败，说明 obj 不是一个 JSON 字符串，继续处理
+    }
+  }
+
+  const result = {};
+
+  for (const key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      const value = obj[key];
+
+      try {
+        // 尝试解析字段的值
+        result[key] = JSON.parse(value);
+      }
+      catch (error) {
+        // 解析失败说明该字段的值不是 JSON 字符串，继续递归
+        if (typeof value === 'object' && value !== null) {
+          result[key] = parseJSONRecursively(value);
+        }
+        else {
+          // 如果是其他非对象类型，保持原样
+          result[key] = value;
+        }
+      }
+    }
+  }
+
+  return result;
+}
+
+function onParseRecursively() {
+  const newJson = JSON.stringify(parseJSONRecursively(JSON.parse(rawJson.value)));
+  if (newJson) {
+    rawJson.value = newJson;
+  }
 }
 </script>
 
@@ -78,8 +122,11 @@ function unescapeJson() {
       />
     </n-form-item>
     <div flex justify-center>
-      <c-button @click="unescapeJson">
+      <!-- <c-button @click="onUnescapeJson">
         {{ t('tools.json-prettify.button.unescape') }}
+      </c-button> -->
+      <c-button @click="onParseRecursively">
+        {{ t('tools.json-prettify.button.parseRecursively') }}
       </c-button>
     </div>
   </c-card>

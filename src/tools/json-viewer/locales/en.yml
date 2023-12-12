@@ -5,3 +5,4 @@ tools:
 
     button:
       unescape: Unescape(\")
+      parseRecursively: Parse recursively
