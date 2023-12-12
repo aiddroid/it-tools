@@ -84,7 +84,7 @@ onMounted(fetchIpInfo);
 
     <div v-if="ipLocationMap">
       <n-form-item label="Map" label-placement="left" label-width="110" :show-feedback="false">
-        <img class="location-map" :src="ipLocationMap" alt="Geo location">
+        <img class="location-map" :src="ipLocationMap" alt="Geo location" referrerpolicy="no-referrer">
       </n-form-item>
       <br>
       <n-form-item label="Zoom level" label-placement="left" label-width="110" :show-feedback="false">

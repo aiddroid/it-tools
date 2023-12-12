@@ -178,6 +178,7 @@ declare module '@vue/runtime-core' {
     PdfSignatureDetails: typeof import('./src/tools/pdf-signature-checker/components/pdf-signature-details.vue')['default']
     PercentageCalculator: typeof import('./src/tools/percentage-calculator/percentage-calculator.vue')['default']
     PhoneParserAndFormatter: typeof import('./src/tools/phone-parser-and-formatter/phone-parser-and-formatter.vue')['default']
+    PhotoExifReader: typeof import('./src/tools/photo-exif-reader/photo-exif-reader.vue')['default']
     QrCodeGenerator: typeof import('./src/tools/qr-code-generator/qr-code-generator.vue')['default']
     RandomPortGenerator: typeof import('./src/tools/random-port-generator/random-port-generator.vue')['default']
     RegexVisualizationTester: typeof import('./src/tools/regex-visualization-tester/regex-visualization-tester.vue')['default']
@@ -214,5 +215,6 @@ declare module '@vue/runtime-core' {
     XmlFormatter: typeof import('./src/tools/xml-formatter/xml-formatter.vue')['default']
     YamlToJson: typeof import('./src/tools/yaml-to-json-converter/yaml-to-json.vue')['default']
     YamlToToml: typeof import('./src/tools/yaml-to-toml/yaml-to-toml.vue')['default']
+    ZoomMap: typeof import('./src/components/ZoomMap.vue')['default']
   }
 }

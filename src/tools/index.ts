@@ -1,6 +1,7 @@
 import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
+import { tool as photoExifReader } from './photo-exif-reader';
 import { tool as markdownEditor } from './markdown-editor';
 import { tool as fileChecksumChecker } from './file-checksum-checker';
 import { tool as regexVisualizationTester } from './regex-visualization-tester';
@@ -84,7 +85,21 @@ import { tool as xmlFormatter } from './xml-formatter';
 export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Crypto',
-    components: [tokenGenerator, hashText, bcrypt, uuidGenerator, ulidGenerator, cypher, bip39, hmacGenerator, rsaKeyPairGenerator, passwordStrengthAnalyser, pdfSignatureChecker, fileChecksumChecker],
+    components: [
+      tokenGenerator,
+      hashText,
+      bcrypt,
+      uuidGenerator,
+      ulidGenerator,
+      cypher,
+      bip39,
+      hmacGenerator,
+      rsaKeyPairGenerator,
+      passwordStrengthAnalyser,
+      pdfSignatureChecker,
+      fileChecksumChecker,
+      photoExifReader,
+    ],
   },
   {
     name: 'Converter',

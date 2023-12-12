@@ -74,6 +74,9 @@ dependencies:
   emojilib:
     specifier: ^3.0.10
     version: 3.0.10
+  exifreader:
+    specifier: ^4.17.0
+    version: 4.17.0
   figue:
     specifier: ^1.2.0
     version: 1.2.0
@@ -4034,6 +4037,13 @@ packages:
       - vue
     dev: false
 
+  /@xmldom/xmldom@0.8.10:
+    resolution: {integrity: sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==}
+    engines: {node: '>=10.0.0'}
+    requiresBuild: true
+    dev: false
+    optional: true
+
   /@zhead/schema@1.0.0-beta.13:
     resolution: {integrity: sha512-P1A1vRGFBhITco8Iw4/hvnDYoE/SoVrd71dW1pBFdXJb3vP+pBtoOuhbEKy0ROJGOyzQuqvFibcwzyLlWMqNiQ==}
     dev: false
@@ -5582,6 +5592,13 @@ packages:
       signal-exit: 3.0.7
       strip-final-newline: 2.0.0
     dev: true
+
+  /exifreader@4.17.0:
+    resolution: {integrity: sha512-E1RhB5U/5WJCEnegaY2wnygeL5fp36Chi+Aj2scczkHUaW9vL8wnJ1P2jQCB1/fHfjjhxHxxsAFqv6ItQBsJBA==}
+    requiresBuild: true
+    optionalDependencies:
+      '@xmldom/xmldom': 0.8.10
+    dev: false
 
   /extend-shallow@2.0.1:
     resolution: {integrity: sha512-zCnTtlxNoAiDc3gqY2aYAWFx7XWWiasuF2K8Me5WbN8otHKTUKBwjPtNpRs/rbUZm7KxWAaNj7P1a/p52GbVug==}

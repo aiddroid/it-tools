@@ -1,0 +1,9 @@
+tools:
+  photo-exif-reader:
+    title: Photo Exif Reader
+    description: Photo Exif(Exchangeable image file format) Reader is a free online tool to view the EXIF metadata of an image file locally without uploading it.
+
+
+    label:
+      drapOrDropHere: Drag and drop a file here, or click to select a file
+      browseFiles: Browse files

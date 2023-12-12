@@ -22,7 +22,7 @@ const appTheme = useAppTheme();
 <template>
   <div>
     <n-form-item label="Map" label-placement="left" label-width="110" :show-feedback="false">
-      <img class="location-map" :src="mapImageUrl" alt="Geo location">
+      <img class="location-map" :src="mapImageUrl" alt="Geo location" referrerpolicy="no-referrer">
     </n-form-item>
     <br>
     <n-form-item label="Zoom level" label-placement="left" label-width="110" :show-feedback="false">

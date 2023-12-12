@@ -1,0 +1,8 @@
+tools:
+  photo-exif-reader:
+    title: 照片Exif信息读取器
+    description: 照片Exif(Exchangeable image file format)信息读取器是一个免费的在线工具，可在您的浏览器本地查看图像文件的EXIF元数据，而无需上传该文件。
+
+    label:
+      drapOrDropHere: 请将文件拖拽到此处, 或者点击选择文件
+      browseFiles: 选择文件
