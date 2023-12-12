@@ -1,6 +1,7 @@
 import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
+import { tool as markdownEditor } from './markdown-editor';
 import { tool as fileChecksumChecker } from './file-checksum-checker';
 import { tool as regexVisualizationTester } from './regex-visualization-tester';
 import { tool as ipLocation } from './ip-location';
@@ -122,6 +123,7 @@ export const toolsByCategory: ToolCategory[] = [
       regexVisualizationTester,
       keycodeInfo,
       slugifyString,
+      markdownEditor,
       htmlWysiwygEditor,
       userAgentParser,
       httpStatusCodes,

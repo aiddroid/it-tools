@@ -1,0 +1,4 @@
+tools:
+  markdown-editor:
+    title: Markdown editor
+    description: 'Edit or preview markdown text, including images, tables, LaTex/KaTeX, UML diagrams, flow charts and more.'

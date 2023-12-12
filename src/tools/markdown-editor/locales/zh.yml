@@ -1,0 +1,4 @@
+tools:
+  markdown-editor:
+    title: Markdown 编辑器
+    description: '编辑或预览 markdown 文本，包括图片，表格，LaTex/KaTeX，UML图，流程图及更多内容。'
