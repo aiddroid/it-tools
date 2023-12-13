@@ -10,14 +10,14 @@ const rawIpAddress = ref('');
 const ipInfo = ref({});
 const zoomLevel = ref(5);
 
-const ipLocationMap = computed(() => {
-  if (ipInfo.value && ipInfo.value.longitude && ipInfo.value.latitude) {
-    return `http://api.map.baidu.com/staticimage?center=${ipInfo.value.longitude},${ipInfo.value.latitude}&width=800&height=600&zoom=${zoomLevel.value}&markers=${ipInfo.value.longitude},${ipInfo.value.latitude}`;
-  }
-  else {
-    return null;
-  }
-});
+// const ipLocationMap = computed(() => {
+//   if (ipInfo.value && ipInfo.value.longitude && ipInfo.value.latitude) {
+//     return `http://api.map.baidu.com/staticimage?center=${ipInfo.value.longitude},${ipInfo.value.latitude}&width=800&height=600&zoom=${zoomLevel.value}&markers=${ipInfo.value.longitude},${ipInfo.value.latitude}`;
+//   }
+//   else {
+//     return null;
+//   }
+// });
 
 const rawIpValidation = useValidation({
   source: rawIpAddress,
@@ -29,7 +29,7 @@ async function fetchIpInfo() {
   const response = await axios.get(`https://itoolkit.app/api/iplocation.php?ip=${rawIpAddress.value}`);
   if (response.data) {
     ipInfo.value = response.data.data;
-    if (response.data.code === 0 && rawIpAddress.value === '') {
+    if (response.data.code === 0 && !rawIpAddress.value) {
       rawIpAddress.value = ipInfo.value.query || ipInfo.value.ip;
     }
   }
@@ -82,15 +82,9 @@ onMounted(fetchIpInfo);
       </div>
     </n-form-item>
 
-    <div v-if="ipLocationMap">
-      <n-form-item label="Map" label-placement="left" label-width="110" :show-feedback="false">
-        <img class="location-map" :src="ipLocationMap" alt="Geo location" referrerpolicy="no-referrer">
-      </n-form-item>
-      <br>
-      <n-form-item label="Zoom level" label-placement="left" label-width="110" :show-feedback="false">
-        <n-input-number v-model:value="zoomLevel" max="18" min="3" placeholder="Map zoom level (ex: 6)" w-full />
-      </n-form-item>
-    </div>
+    <n-divider />
+
+    <zoom-map v-if="ipInfo && ipInfo.latitude" :lat="ipInfo.latitude" :lng="ipInfo.longitude" v-model:zoom-level="zoomLevel" />
   </div>
 </template>
 
