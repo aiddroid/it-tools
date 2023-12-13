@@ -12,7 +12,7 @@ const { lat, lng } = toRefs(props);
 
 // 实时计算 mapImageUrl
 const mapImageUrl = computed(() => {
-  return `http://api.map.baidu.com/staticimage?center=${lng.value},${lat.value}&width=800&height=600&zoom=${zoomLevel.value}&markers=${lng.value},${lat.value}`;
+  return `https://api.map.baidu.com/staticimage?center=${lng.value},${lat.value}&width=800&height=600&zoom=${zoomLevel.value}&markers=${lng.value},${lat.value}`;
 });
 
 const theme = useThemeVars();
