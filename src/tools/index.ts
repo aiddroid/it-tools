@@ -157,7 +157,7 @@ export const toolsByCategory: ToolCategory[] = [
       randomPortGenerator,
       crontabGenerator,
       jsonViewer,
-      jsonValidator,
+      // jsonValidator,
       jsonMinify,
       jsonToCsv,
       sqlPrettify,
