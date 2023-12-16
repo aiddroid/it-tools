@@ -5,10 +5,12 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0DD77DTVDT"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-0DD77DTVDT');
+      // eslint-disable-next-line max-statements-per-line
+      function gtag() { dataLayer.push(arguments); }
+      if (location.hostname !== 'localhost') {
+        gtag('js', new Date());
+        gtag('config', 'G-0DD77DTVDT');
+      }
     </script>
     <meta charset="UTF-8" />
     <link rel="icon" href="favicon.ico" />
@@ -23,7 +25,7 @@
       itemprop="description"
       content="Collection of handy online tools for developers, with great UX. IT Tools is a free and open-source collection of handy online tools for developers & people working in IT."
     />
-    <link rel="author" href="humans.txt" />
+    <!-- <link rel="author" href="humans.txt" /> -->
     <link rel="canonical" href="https://itoolkit.app/it-tools" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />

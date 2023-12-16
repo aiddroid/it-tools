@@ -1,6 +1,7 @@
 import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
+import { tool as jsonValidator } from './json-validator';
 import { tool as photoExifReader } from './photo-exif-reader';
 import { tool as markdownEditor } from './markdown-editor';
 import { tool as fileChecksumChecker } from './file-checksum-checker';
@@ -156,6 +157,7 @@ export const toolsByCategory: ToolCategory[] = [
       randomPortGenerator,
       crontabGenerator,
       jsonViewer,
+      jsonValidator,
       jsonMinify,
       jsonToCsv,
       sqlPrettify,

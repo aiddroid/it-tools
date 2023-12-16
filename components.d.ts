@@ -122,6 +122,7 @@ declare module '@vue/runtime-core' {
     JsonToCsv: typeof import('./src/tools/json-to-csv/json-to-csv.vue')['default']
     JsonToToml: typeof import('./src/tools/json-to-toml/json-to-toml.vue')['default']
     JsonToYaml: typeof import('./src/tools/json-to-yaml-converter/json-to-yaml.vue')['default']
+    JsonValidator: typeof import('./src/tools/json-validator/json-validator.vue')['default']
     JsonViewer: typeof import('./src/tools/json-viewer/json-viewer.vue')['default']
     JwtParser: typeof import('./src/tools/jwt-parser/jwt-parser.vue')['default']
     KeycodeInfo: typeof import('./src/tools/keycode-info/keycode-info.vue')['default']

@@ -1,0 +1,4 @@
+tools:
+  json-validator:
+    title: JSON 格式检查器
+    description: JSON Validator 是一个免费的在线开发者工具，用于检查 JSON 数据是否符合 JSON 格式规范

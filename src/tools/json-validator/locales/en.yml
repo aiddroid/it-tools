@@ -1,0 +1,4 @@
+tools:
+  json-validator:
+    title: JSON Validator
+    description: JSON Validator is a free online developer tool to validate JSON data against the JSON specification as known as JSON linter instantly.
