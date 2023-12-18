@@ -37,6 +37,7 @@
   "dependencies": {
     "@it-tools/bip39": "^0.0.4",
     "@it-tools/oggen": "^1.3.0",
+    "@prantlf/jsonlint": "^14.0.3",
     "@sindresorhus/slugify": "^2.2.1",
     "@tiptap/pm": "2.1.6",
     "@tiptap/starter-kit": "2.1.6",
@@ -66,7 +67,6 @@
     "iarna-toml-esm": "^3.0.5",
     "ibantools": "^4.3.3",
     "json5": "^2.2.3",
-    "jsonlint": "^1.6.3",
     "jwt-decode": "^3.1.2",
     "libphonenumber-js": "^1.10.28",
     "lodash": "^4.17.21",

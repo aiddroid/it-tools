@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import JSON5 from 'json5';
 import { useStorage } from '@vueuse/core';
-import * as jsonlint from 'jsonlint';
+import * as jsonlint from '@prantlf/jsonlint';
 import { formatJson } from './json-validator.service';
 import { withDefaultOnError } from '@/utils/defaults';
 import { useValidation } from '@/composable/validation';
