@@ -15,7 +15,7 @@ const capitalize = (str: string) => {
 </script>
 
 <template>
-  <div style="flex: 0 1 1200px; max-width: 1600px;">
+  <div style="flex: 0 1 1600px; max-width: 1600px;">
     <n-card title="" style="margin-bottom: 16px">
       <n-tabs type="line">
         <n-tab-pane v-for="category in websiteStore.websitesByCategory" :key="category.name" :name="category.name" :tab="capitalize(category.name)">
