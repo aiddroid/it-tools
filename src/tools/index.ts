@@ -1,6 +1,7 @@
 import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
+import { tool as websiteNavigator } from './website-navigator';
 import { tool as jsonValidator } from './json-validator';
 import { tool as photoExifReader } from './photo-exif-reader';
 import { tool as markdownEditor } from './markdown-editor';
@@ -127,6 +128,7 @@ export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Web',
     components: [
+      websiteNavigator,
       urlEncoder,
       htmlEntities,
       urlParser,

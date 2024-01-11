@@ -5,6 +5,7 @@ import ColoredCard from '../components/ColoredCard.vue';
 import ToolCard from '../components/ToolCard.vue';
 import { useToolStore } from '@/tools/tools.store';
 import { config } from '@/config';
+import { useI18n } from 'vue-i18n';
 
 const toolStore = useToolStore();
 
@@ -71,6 +72,10 @@ const { t } = useI18n();
 </template>
 
 <style scoped lang="less">
+.card-tabs .n-tabs-nav--bar-type {
+  padding-left: 4px;
+}
+
 .home-page {
   padding-top: 50px;
 }
