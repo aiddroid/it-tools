@@ -42,7 +42,7 @@ const { t } = useI18n();
       <transition name="height">
         <div v-if="toolStore.favoriteTools.length > 0">
           <n-h3>{{ $t('home.categories.favoriteTools') }}</n-h3>
-          <n-grid x-gap="12" y-gap="12" cols="1 400:2 800:3 1200:4 2000:8">
+          <n-grid x-gap="12" y-gap="12" cols="1 400:2 800:3 1200:4 1600:6 2000:8">
             <n-gi v-for="tool in toolStore.favoriteTools" :key="tool.name">
               <ToolCard :tool="tool" />
             </n-gi>
