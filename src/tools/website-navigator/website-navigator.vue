@@ -19,7 +19,7 @@ const capitalize = (str: string) => {
     <n-card title="" style="margin-bottom: 16px">
       <n-tabs type="line">
         <n-tab-pane v-for="category in websiteStore.websitesByCategory" :key="category.name" :name="category.name" :tab="capitalize(category.name)">
-          <n-grid x-gap="12" y-gap="12" cols="1 400:2 800:4 1200:6 2000:10">
+          <n-grid x-gap="12" y-gap="12" cols="1 400:2 800:4 1200:6 1600:8 2000:10">
             <n-gi v-for="website in category.components" :key="website.name">
               <WebsiteCard :website="website" />
             </n-gi>
