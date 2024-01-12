@@ -37,7 +37,7 @@ const appTheme = useAppTheme();
             </c-tooltip> -->
           </n-h3>
 
-          <div class="description">
+          <div class="description" :title="website.description">
             <n-ellipsis :line-clamp="2" :tooltip="false" style="min-height: 30px">
               {{ website.description }}
               <br>&nbsp;
