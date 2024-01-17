@@ -8,7 +8,7 @@ import { useStorage } from '@vueuse/core';
 const { t } = useI18n();
 
 const logoOptions = [
-  { label: 'N/A', value: '', tooltip: 'None' },
+  { label: '', value: '', icon: 'assets/logos/no.png', tooltip: 'None' },
   { label: '', value: 'assets/logos/facebook.png', icon: 'assets/logos/facebook.png' },
   { label: '', value: 'assets/logos/twitter.png', icon: 'assets/logos/twitter.png' },
   { label: '', value: 'assets/logos/whatsapp.png', icon: 'assets/logos/whatsapp.png' },
