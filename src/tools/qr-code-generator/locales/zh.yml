@@ -2,3 +2,17 @@ tools:
   qrcode-generator:
     title: 二维码(QR)生成器
     description: '为URL或文本生成可下载的二维码，支持自定义前景和背景颜色。'
+
+    label:
+      data: '内容:'
+      icon: '图标:'
+      iconUrl: '图标URL:'
+      iconMargin: '图标间距:'
+      foregroundColor: '前景色:'
+      backgroundColor: '背景色:'
+      quiteZone: '净空(留白)区:'
+      errorResistance: '容错等级:'
+      downloadSize: '下载尺寸:'
+
+    button:
+      download: '下载二维码'

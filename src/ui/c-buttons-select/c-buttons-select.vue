@@ -45,7 +45,7 @@ function selectOption(option: CButtonSelectOption<T>) {
 
 <template>
   <c-label v-bind="props">
-    <div class="flex gap-2">
+    <div class="flex flex-wrap gap-2">
       <c-tooltip
         v-for="option in options" :key="option.value"
         :tooltip="option.tooltip"
@@ -56,7 +56,7 @@ function selectOption(option: CButtonSelectOption<T>) {
           :type="option.value === value ? 'primary' : 'default'"
           @click="selectOption(option)"
         >
-          {{ option.label }}
+          <img v-if="option.icon" :src="option.icon" width="25" height="25"> {{ option.label }}
         </c-button>
       </c-tooltip>
     </div>
