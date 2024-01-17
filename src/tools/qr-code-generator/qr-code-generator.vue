@@ -79,7 +79,7 @@ const download = function () {
 </script>
 
 <template>
-  <c-card>
+  <c-card class="panel-card">
     <n-grid x-gap="12" y-gap="12" cols="1 600:3">
       <n-gi span="2">
         <c-input-text
@@ -127,7 +127,7 @@ const download = function () {
       </n-gi>
     </n-grid>
   </c-card>
-  <c-card>
+  <c-card class="panel-card">
     <n-grid x-gap="12" y-gap="12" cols="1 600:3">
       <n-gi>
         <div flex flex-col items-center gap-3>
@@ -144,3 +144,9 @@ const download = function () {
     </n-grid>
   </c-card>
 </template>
+
+<style lang="less" scoped>
+.panel-card {
+  flex: 0 1 550px;
+}
+</style>

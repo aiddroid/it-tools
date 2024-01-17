@@ -56,7 +56,7 @@ function selectOption(option: CButtonSelectOption<T>) {
           :type="option.value === value ? 'primary' : 'default'"
           @click="selectOption(option)"
         >
-          <img v-if="option.icon" :src="option.icon" width="25" height="25"> {{ option.label }}
+          <img v-if="option.icon" :src="option.icon" width="20" height="20"> {{ option.label }}
         </c-button>
       </c-tooltip>
     </div>
